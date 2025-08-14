@@ -1,0 +1,46 @@
+============================================================
+IRIS DATASET CLUSTERING ANALYSIS REPORT
+============================================================
+
+DATASET INFORMATION:
+  Number of samples: 150
+  Number of features: 4
+  Features: sepal length (cm), sepal width (cm), petal length (cm), petal width (cm)
+  Number of clusters found: 2
+
+CLUSTER DISTRIBUTION:
+  Cluster 0: 100 samples (66.7%)
+  Cluster 1: 50 samples (33.3%)
+
+CLUSTERING PERFORMANCE METRICS:
+  Silhouette Score: 0.582
+  Inertia: 222.362
+  Adjusted Rand Score: 0.568
+  Homogeneity Score: 0.579
+  Completeness Score: 1.000
+  V Measure Score: 0.734
+
+CLUSTER CHARACTERISTICS:
+  Cluster 0 (n=100):
+    sepal length (cm): 0.507 ± 0.803
+    sepal width (cm): -0.427 ± 0.766
+    petal length (cm): 0.652 ± 0.469
+    petal width (cm): 0.627 ± 0.559
+
+  Cluster 1 (n=50):
+    sepal length (cm): -1.015 ± 0.427
+    sepal width (cm): 0.853 ± 0.873
+    petal length (cm): -1.305 ± 0.099
+    petal width (cm): -1.255 ± 0.139
+
+CLUSTER vs TRUE LABEL MAPPING:
+True Label   0   1   2
+Cluster               
+0            0  50  50
+1           50   0   0
+
+RECOMMENDATIONS:
+  - Good clustering quality (Silhouette Score > 0.5)
+  - Clusters show moderate alignment with true classes
+
+============================================================

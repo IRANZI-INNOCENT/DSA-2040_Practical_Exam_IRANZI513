@@ -1,0 +1,1001 @@
+InvoiceNo,StockCode,Description,Quantity,InvoiceDate,UnitPrice,CustomerID,Country,Category,CustomerName,CustomerEmail
+INV000001,ELE7252,Speaker,39,2023-04-12 12:10:47,99.62,C0077,Belgium,Electronics,James Elliott,millerroy@example.com
+INV000001,ELE5371,Keyboard,50,2024-09-14 11:27:22,64.46,C0002,United Kingdom,Electronics,Angie Henderson,davisjesse@example.net
+INV000002,BOO3927,Atlas,33,2025-02-02 21:38:26,91.35,C0093,Canada,Books,Alan Phillips,tholt@example.net
+INV000003,CLO7126,Dress,49,2023-04-26 01:59:00,16.99,C0078,Italy,Clothing,David Murphy,wmurphy@example.com
+INV000003,BOO1319,Dictionary,8,2025-06-15 08:54:28,92.98,C0077,Belgium,Books,James Elliott,millerroy@example.com
+INV000004,CLO2290,Boots,6,2023-03-25 06:41:28,73.46,C0008,France,Clothing,Dr. Sharon James,xreid@example.org
+INV000005,CLO3705,Shorts,17,2023-08-24 16:47:34,53.24,C0017,Belgium,Clothing,Patricia Peterson,ryan70@example.net
+INV000005,CLO7537,Shoes,43,2023-08-20 18:29:20,65.34,C0097,EIRE,Clothing,Paige Carlson,wallkenneth@example.com
+INV000006,ELE1344,Camera,38,2025-05-24 08:10:51,0.0,C0029,Italy,Electronics,Victoria Garcia,zchandler@example.org
+INV000007,BOO9423,Technical Manual,16,2024-04-16 23:48:32,28.57,C0005,Switzerland,Books,Gabrielle Davis,howardmaurice@example.com
+INV000007,SPO4981,Water Bottle,31,2023-05-13 07:46:27,80.94,C0074,Austria,Sports,Sarah Ashley,vmedina@example.net
+INV000008,HOM1887,Clock,44,2024-01-21 13:13:46,65.69,C0055,Poland,Home & Garden,Victoria Johnson,yreed@example.com
+INV000008,CLO4116,Jacket,35,2023-07-04 00:11:39,45.41,C0014,Switzerland,Clothing,Zachary Hicks,camposmichelle@example.org
+INV000009,HOM2604,Rug,4,2025-05-16 22:28:14,0.0,C0010,Germany,Home & Garden,Joel Nelson,gabriellecameron@example.org
+INV000010,HOM7570,Plant Pot,-4,2024-10-08 12:05:31,17.3,C0063,Switzerland,Home & Garden,Frances Cardenas,emilywalker@example.org
+INV000010,BOO8973,Journal,10,2025-07-30 21:09:37,19.8,C0059,Belgium,Books,Erika Terry,jamesortega@example.com
+INV000010,BOO1821,Fiction Book,38,2025-07-15 01:13:10,48.2,C0008,France,Books,Dr. Sharon James,xreid@example.org
+INV000011,ELE2122,Tablet,39,2023-12-17 14:13:34,7.73,C0066,Austria,Electronics,Colleen Brock,pwilliams@example.org
+INV000011,CLO1651,Boots,40,2025-03-22 18:54:58,9.12,C0073,Italy,Clothing,Alicia Gilmore,wwoods@example.com
+INV000012,CLO4910,Hat,17,2024-08-13 21:31:14,40.18,C0034,Poland,Clothing,Michael Cross,smoore@example.org
+INV000013,ELE8508,Laptop,40,2024-11-30 20:23:47,99.85,C0097,EIRE,Electronics,Paige Carlson,wallkenneth@example.com
+INV000014,CLO2127,Hat,16,2024-11-18 17:50:07,37.58,C0034,Poland,Clothing,Michael Cross,smoore@example.org
+INV000014,SPO5905,Football,43,2024-04-06 22:07:41,11.26,C0079,Belgium,Sports,Trevor Fisher,ruizkaitlyn@example.org
+INV000014,SPO5462,Yoga Mat,19,2025-07-03 05:48:26,60.88,C0096,Germany,Sports,Tiffany Vaughn,javierwashington@example.net
+INV000015,SPO5114,Water Bottle,4,2024-10-28 03:56:06,10.14,C0034,Poland,Sports,Michael Cross,smoore@example.org
+INV000016,CLO3647,Shoes,48,2024-04-19 09:24:02,44.74,C0099,Netherlands,Clothing,Beth Oneill,agarcia@example.net
+INV000017,CLO1590,Skirt,24,2025-06-02 08:02:35,58.67,C0089,Austria,Clothing,Samuel Rivas,ramirezshannon@example.com
+INV000018,BOO5088,Biography,43,2023-04-04 13:32:54,11.18,C0006,Spain,Books,Monica Herrera,smiller@example.net
+INV000019,CLO3662,Jacket,-12,2025-08-05 00:41:15,88.26,C0080,USA,Clothing,Mrs. Marie Harrington DDS,herringjames@example.org
+INV000020,CLO3608,Shoes,45,2023-06-04 03:41:44,11.7,C0053,Portugal,Clothing,Matthew Ross,michelle45@example.net
+INV000021,BOO4728,Textbook,15,2023-11-19 18:53:40,3.34,C0059,Belgium,Books,Erika Terry,jamesortega@example.com
+INV000021,BOO9346,Magazine,26,2023-11-24 19:35:22,68.27,C0099,Netherlands,Books,Beth Oneill,agarcia@example.net
+INV000022,CLO5349,Boots,3,2024-02-16 02:43:21,11.73,C0034,Poland,Clothing,Michael Cross,smoore@example.org
+INV000023,SPO7311,Tennis Racket,-37,2023-05-07 02:53:17,19.82,C0078,Italy,Sports,David Murphy,wmurphy@example.com
+INV000024,CLO8066,Hat,5,2023-09-01 23:30:46,94.94,C0069,Italy,Clothing,Paul Larsen,katie87@example.net
+INV000025,BOO6067,Atlas,43,2024-01-08 14:49:19,41.43,C0016,United Kingdom,Books,Tricia Valencia,frazierdanny@example.net
+INV000026,HOM5930,Cushion,-26,2023-09-28 00:14:19,55.25,C0054,Japan,Home & Garden,Meghan Anthony,sheila14@example.org
+INV000027,SPO8618,Bicycle,29,2025-05-07 11:45:45,44.77,C0075,Portugal,Sports,Stephanie Freeman,ryan06@example.com
+INV000027,CLO5649,Jeans,33,2023-04-27 14:37:16,66.72,C0095,France,Clothing,Jesse Parker,davidlee@example.org
+INV000027,BOO4262,Biography,10,2023-09-01 03:57:32,3.42,C0031,France,Books,Angela Morton,williamsyvette@example.org
+INV000027,HOM4185,Mirror,46,2023-01-05 03:45:29,69.94,C0010,Germany,Home & Garden,Joel Nelson,gabriellecameron@example.org
+INV000028,ELE4585,Speaker,12,2024-09-26 14:38:20,80.61,C0001,EIRE,Electronics,Allison Hill,donaldgarcia@example.net
+INV000029,HOM8612,Cushion,43,2024-11-30 19:59:43,53.58,C0016,United Kingdom,Home & Garden,Tricia Valencia,frazierdanny@example.net
+INV000029,SPO7991,Golf Club,36,2025-07-11 10:53:09,45.15,C0057,Poland,Sports,Renee Mcdaniel,michaeljones@example.net
+INV000030,CLO9540,Shoes,32,2024-12-30 23:36:25,63.05,C0097,EIRE,Clothing,Paige Carlson,wallkenneth@example.com
+INV000031,BOO9849,Magazine,6,2024-03-28 10:56:00,14.7,C0035,Poland,Books,Lauren Daniels,brian97@example.net
+INV000031,HOM6421,Mirror,35,2023-02-20 16:54:07,47.13,C0009,Denmark,Home & Garden,Daniel Adams,lynchgeorge@example.net
+INV000032,SPO7232,Football,31,2023-12-26 14:03:34,1.58,C0099,Netherlands,Sports,Beth Oneill,agarcia@example.net
+INV000032,SPO4613,Golf Club,32,2024-03-23 13:19:43,22.72,C0054,Japan,Sports,Meghan Anthony,sheila14@example.org
+INV000033,HOM8657,Cushion,9,2024-03-15 04:30:17,98.09,C0087,Portugal,Home & Garden,Madison Poole,ryangross@example.net
+INV000034,ELE8022,Smartphone,9,2024-12-06 07:30:53,86.82,C0085,Spain,Electronics,Barbara Riggs,reedross@example.com
+INV000035,BOO7211,Magazine,18,2023-04-21 13:46:25,75.45,C0059,Belgium,Books,Erika Terry,jamesortega@example.com
+INV000036,SPO6733,Football,15,2023-12-29 14:40:12,65.36,C0003,Portugal,Sports,Cristian Santos,lrobinson@example.com
+INV000036,CLO3496,T-Shirt,16,2024-02-15 23:18:40,13.5,C0032,Austria,Clothing,Tammy Allison,richardolson@example.com
+INV000037,BOO3749,Magazine,39,2025-07-05 04:56:58,61.12,C0090,Poland,Books,Mary Rogers,lrosales@example.com
+INV000037,ELE1420,Mouse,20,2023-11-04 07:14:05,58.0,C0040,Austria,Electronics,Kristine Garcia,williamanderson@example.com
+INV000037,ELE4978,Mouse,7,2024-10-22 10:19:46,70.02,C0026,Portugal,Electronics,Shannon Jones,joshuawashington@example.net
+INV000037,ELE9728,Camera,28,2023-06-28 07:10:14,66.49,C0073,Italy,Electronics,Alicia Gilmore,wwoods@example.com
+INV000038,HOM8102,Lamp,24,2025-04-25 22:45:25,63.92,C0054,Japan,Home & Garden,Meghan Anthony,sheila14@example.org
+INV000039,SPO9817,Running Shoes,50,2023-12-16 05:30:13,48.87,C0094,USA,Sports,Kara Schmidt,jbarajas@example.com
+INV000040,ELE8385,Smart Watch,16,2023-08-20 10:43:38,75.3,C0032,Austria,Electronics,Tammy Allison,richardolson@example.com
+INV000041,BOO8988,Cookbook,14,2024-02-17 15:29:46,36.13,C0064,Netherlands,Books,Angel Riggs,gibsonolivia@example.net
+INV000042,SPO9464,Football,13,2023-08-09 22:57:11,9.48,C0036,Portugal,Sports,Kim Brown,yorkcasey@example.org
+INV000042,HOM8342,Clock,2,2023-04-21 22:21:06,10.21,C0089,Austria,Home & Garden,Samuel Rivas,ramirezshannon@example.com
+INV000043,BOO9698,Dictionary,23,2023-04-03 15:28:02,43.12,C0075,Portugal,Books,Stephanie Freeman,ryan06@example.com
+INV000043,BOO4777,Textbook,8,2023-09-15 18:02:59,72.41,C0035,Poland,Books,Lauren Daniels,brian97@example.net
+INV000043,CLO4545,Jacket,48,2024-04-22 20:35:58,48.94,C0089,Austria,Clothing,Samuel Rivas,ramirezshannon@example.com
+INV000044,ELE5853,Headphones,15,2025-07-13 08:50:58,36.73,C0037,Germany,Electronics,Cynthia Wilson,bethwilliams@example.org
+INV000045,ELE5786,Keyboard,45,2025-06-03 05:34:36,94.46,C0006,Spain,Electronics,Monica Herrera,smiller@example.net
+INV000046,SPO8690,Running Shoes,31,2024-03-24 08:10:57,44.61,C0002,United Kingdom,Sports,Angie Henderson,davisjesse@example.net
+INV000046,ELE7565,Smartphone,32,2024-11-13 04:49:38,8.33,C0062,Netherlands,Electronics,Steven Flynn,donnacampbell@example.net
+INV000047,BOO5066,Technical Manual,8,2023-07-13 04:14:25,56.25,C0073,Italy,Books,Alicia Gilmore,wwoods@example.com
+INV000048,SPO8381,Helmet,29,2024-12-29 02:19:36,30.44,C0100,Denmark,Sports,John Peterson,kingmichelle@example.org
+INV000049,SPO4404,Tennis Racket,41,2024-04-17 09:20:28,21.89,C0008,France,Sports,Dr. Sharon James,xreid@example.org
+INV000050,CLO7693,T-Shirt,29,2024-09-17 06:36:18,69.25,C0010,Germany,Clothing,Joel Nelson,gabriellecameron@example.org
+INV000051,HOM4824,Lamp,17,2024-02-27 22:04:25,78.99,C0037,Germany,Home & Garden,Cynthia Wilson,bethwilliams@example.org
+INV000051,ELE4683,Keyboard,42,2025-02-16 10:57:18,15.75,C0055,Poland,Electronics,Victoria Johnson,yreed@example.com
+INV000052,SPO5728,Basketball,29,2025-04-18 19:58:18,13.31,C0040,Austria,Sports,Kristine Garcia,williamanderson@example.com
+INV000052,SPO8172,Water Bottle,6,2025-02-06 02:01:12,60.21,C0065,Japan,Sports,Michael Snyder,dylanwatts@example.org
+INV000053,ELE1339,Headphones,49,2024-11-11 00:50:00,67.56,C0004,Switzerland,Electronics,Abigail Shaffer,jpeterson@example.org
+INV000053,SPO5557,Water Bottle,12,2023-05-05 23:05:22,99.7,C0061,France,Sports,Richard Lawson,steven73@example.net
+INV000053,BOO6460,Journal,21,2025-07-18 00:25:22,67.34,C0061,France,Books,Richard Lawson,steven73@example.net
+INV000054,HOM1601,Rug,30,2023-03-03 22:07:03,9.72,C0037,Germany,Home & Garden,Cynthia Wilson,bethwilliams@example.org
+INV000054,ELE8569,Keyboard,27,2024-11-02 03:11:45,6.37,C0066,Austria,Electronics,Colleen Brock,pwilliams@example.org
+INV000055,ELE5375,Headphones,36,2024-05-15 17:01:10,13.97,C0057,Poland,Electronics,Renee Mcdaniel,michaeljones@example.net
+INV000056,SPO3594,Dumbbell,20,2025-07-26 20:04:33,55.53,C0004,Switzerland,Sports,Abigail Shaffer,jpeterson@example.org
+INV000056,HOM3522,Lamp,32,2024-01-24 22:23:31,93.33,C0015,Canada,Home & Garden,Rebecca Henderson,cruzcaitlin@example.com
+INV000057,HOM8483,Plant Pot,36,2023-02-10 04:18:47,15.32,C0062,Netherlands,Home & Garden,Steven Flynn,donnacampbell@example.net
+INV000057,ELE7798,Smart Watch,22,2023-05-22 20:54:47,93.49,C0018,Denmark,Electronics,Deborah Mason,williamrodriguez@example.net
+INV000058,SPO9022,Basketball,10,2023-12-22 14:55:14,45.21,C0039,EIRE,Sports,Michael Evans,sarah10@example.com
+INV000058,HOM4090,Candle,45,2025-06-12 12:58:37,24.64,C0049,France,Home & Garden,Stacey Russell,sarayoung@example.org
+INV000059,HOM7325,Mirror,43,2025-07-01 01:31:45,79.45,C0041,France,Home & Garden,Sherry Wood,samueldaniels@example.com
+INV000059,SPO6439,Basketball,7,2023-02-02 05:26:47,87.54,C0017,Belgium,Sports,Patricia Peterson,ryan70@example.net
+INV000060,CLO3529,Sweater,5,2024-02-23 16:05:57,47.48,C0093,Canada,Clothing,Alan Phillips,tholt@example.net
+INV000061,ELE9742,Camera,25,2025-06-14 04:02:41,95.46,C0084,Portugal,Electronics,Michael Burton,terrykevin@example.net
+INV000062,ELE2121,Mouse,16,2023-03-04 11:56:43,63.48,C0070,Germany,Electronics,Jeremiah Reeves,josephflores@example.net
+INV000062,ELE8269,Smartphone,11,2023-09-30 03:35:01,69.71,C0056,Netherlands,Electronics,William Wilson,jonathanfletcher@example.org
+INV000062,BOO8056,Magazine,10,2024-12-31 21:32:31,25.18,C0038,Japan,Books,Kevin Mills,james53@example.com
+INV000063,ELE7267,Mouse,40,2025-03-17 04:22:27,68.63,C0023,Netherlands,Electronics,Lisa Brandt,jenniferross@example.net
+INV000064,BOO5183,Dictionary,43,2024-11-17 23:30:25,1.93,C0082,Japan,Books,Jacob Obrien,stricklandfrank@example.com
+INV000065,ELE6661,Monitor,38,2024-03-08 02:25:43,30.62,C0021,Portugal,Electronics,David Bradley,millertodd@example.org
+INV000066,CLO8916,Sweater,7,2023-10-09 22:24:20,24.48,C0039,EIRE,Clothing,Michael Evans,sarah10@example.com
+INV000066,ELE5497,Speaker,1,2025-06-28 06:40:12,57.03,C0038,Japan,Electronics,Kevin Mills,james53@example.com
+INV000067,HOM4770,Picture Frame,39,2024-11-08 02:58:12,80.39,C0078,Italy,Home & Garden,David Murphy,wmurphy@example.com
+INV000068,CLO1645,Jeans,-20,2025-02-02 20:51:59,79.07,C0097,EIRE,Clothing,Paige Carlson,wallkenneth@example.com
+INV000069,BOO3877,Journal,13,2023-05-22 17:45:48,14.08,C0038,Japan,Books,Kevin Mills,james53@example.com
+INV000070,CLO8894,Shoes,19,2024-12-31 03:15:27,74.91,C0035,Poland,Clothing,Lauren Daniels,brian97@example.net
+INV000070,CLO6992,Sweater,-6,2024-06-24 12:55:42,79.28,C0019,Switzerland,Clothing,Mark Lynch,nathanielmartin@example.net
+INV000071,BOO7242,Encyclopedia,41,2024-09-26 08:19:13,94.09,C0087,Portugal,Books,Madison Poole,ryangross@example.net
+INV000072,BOO4626,Encyclopedia,42,2024-06-01 18:38:15,7.26,C0072,Germany,Books,John Brown,xprice@example.net
+INV000073,ELE1742,Tablet,3,2024-05-13 17:55:09,31.13,C0053,Portugal,Electronics,Matthew Ross,michelle45@example.net
+INV000073,HOM7078,Clock,43,2023-06-12 11:45:58,94.99,C0018,Denmark,Home & Garden,Deborah Mason,williamrodriguez@example.net
+INV000074,CLO2622,Sweater,32,2023-09-07 19:59:06,61.95,C0094,USA,Clothing,Kara Schmidt,jbarajas@example.com
+INV000075,HOM4868,Clock,24,2024-05-27 07:58:18,10.84,C0028,Belgium,Home & Garden,Brent Jordan,ujenkins@example.org
+INV000075,ELE5520,Speaker,13,2024-10-01 11:14:28,96.85,C0046,Germany,Electronics,Michael Hoffman,jonesnicole@example.org
+INV000076,SPO1828,Football,22,2025-02-08 16:25:26,25.11,C0028,Belgium,Sports,Brent Jordan,ujenkins@example.org
+INV000077,SPO4538,Dumbbell,15,2024-03-23 17:32:17,33.53,C0098,Spain,Sports,Adrian Ferguson,brandon08@example.com
+INV000078,CLO5106,Skirt,12,2024-09-14 01:56:31,11.88,C0019,Switzerland,Clothing,Mark Lynch,nathanielmartin@example.net
+INV000079,SPO1258,Bicycle,12,2025-05-04 13:05:17,27.27,C0031,France,Sports,Angela Morton,williamsyvette@example.org
+INV000080,HOM6931,Clock,33,2023-02-27 00:10:05,59.77,C0009,Denmark,Home & Garden,Daniel Adams,lynchgeorge@example.net
+INV000081,SPO8504,Running Shoes,42,2024-12-07 13:08:20,96.44,C0094,USA,Sports,Kara Schmidt,jbarajas@example.com
+INV000082,ELE8267,Monitor,5,2023-05-17 19:06:25,90.03,C0088,Denmark,Electronics,Robert Medina,umarshall@example.net
+INV000083,SPO6327,Golf Club,25,2024-05-03 14:02:58,99.47,C0080,USA,Sports,Mrs. Marie Harrington DDS,herringjames@example.org
+INV000084,ELE4522,Keyboard,28,2024-01-28 02:06:40,45.7,C0013,Belgium,Electronics,Kimberly Burgess,zhurst@example.com
+INV000085,ELE7992,Camera,21,2024-05-17 04:31:13,66.85,C0054,Japan,Electronics,Meghan Anthony,sheila14@example.org
+INV000085,ELE2527,Smartphone,28,2023-06-30 01:52:13,10.56,C0009,Denmark,Electronics,Daniel Adams,lynchgeorge@example.net
+INV000086,SPO6400,Golf Club,43,2024-09-19 20:44:17,13.1,C0076,France,Sports,Rebecca Ramsey,ncalhoun@example.net
+INV000086,ELE6119,Smart Watch,23,2025-03-10 09:32:19,11.26,C0093,Canada,Electronics,Alan Phillips,tholt@example.net
+INV000087,BOO7022,Atlas,8,2023-01-02 18:54:53,76.5,C0014,Switzerland,Books,Zachary Hicks,camposmichelle@example.org
+INV000087,SPO1430,Basketball,39,2025-04-22 21:21:19,92.98,C0099,Netherlands,Sports,Beth Oneill,agarcia@example.net
+INV000088,BOO6751,Magazine,1,2024-12-18 15:43:35,18.96,C0090,Poland,Books,Mary Rogers,lrosales@example.com
+INV000089,ELE9691,Smartphone,14,2024-10-03 22:59:10,38.24,C0095,France,Electronics,Jesse Parker,davidlee@example.org
+INV000090,SPO2391,Basketball,4,2023-03-26 04:52:29,16.4,C0042,Australia,Sports,Victoria Valdez,contrerasangela@example.net
+INV000091,HOM8242,Clock,27,2023-10-19 09:35:02,28.04,C0057,Poland,Home & Garden,Renee Mcdaniel,michaeljones@example.net
+INV000092,SPO9633,Water Bottle,43,2025-03-16 08:49:17,31.53,C0037,Germany,Sports,Cynthia Wilson,bethwilliams@example.org
+INV000093,BOO3248,Biography,49,2024-07-16 00:06:43,0.0,C0027,Spain,Books,Timothy Duncan,esanchez@example.com
+INV000094,CLO6802,Skirt,5,2025-02-13 09:10:11,40.31,C0069,Italy,Clothing,Paul Larsen,katie87@example.net
+INV000095,BOO8033,Encyclopedia,37,2024-11-17 16:28:52,41.04,C0010,Germany,Books,Joel Nelson,gabriellecameron@example.org
+INV000096,CLO8538,Boots,45,2023-03-22 04:13:35,92.06,C0042,Australia,Clothing,Victoria Valdez,contrerasangela@example.net
+INV000097,HOM2288,Rug,26,2023-11-13 05:12:04,87.18,C0076,France,Home & Garden,Rebecca Ramsey,ncalhoun@example.net
+INV000097,SPO9693,Tennis Racket,33,2024-02-19 20:34:41,20.2,C0010,Germany,Sports,Joel Nelson,gabriellecameron@example.org
+INV000097,CLO2684,Jacket,10,2025-05-03 04:23:32,26.34,C0083,Spain,Clothing,Alexander Collins,tsanders@example.org
+INV000097,CLO8601,Shorts,49,2023-07-23 12:31:37,56.81,C0010,Germany,Clothing,Joel Nelson,gabriellecameron@example.org
+INV000097,SPO6179,Bicycle,10,2024-03-23 10:30:17,44.54,C0083,Spain,Sports,Alexander Collins,tsanders@example.org
+INV000097,ELE9312,Camera,5,2024-11-11 14:09:06,31.73,C0076,France,Electronics,Rebecca Ramsey,ncalhoun@example.net
+INV000097,ELE9307,Mouse,25,2025-01-22 23:21:56,46.81,C0010,Germany,Electronics,Joel Nelson,gabriellecameron@example.org
+INV000097,SPO6267,Dumbbell,39,2023-07-08 15:05:33,48.09,C0058,Poland,Sports,Lisa Alvarado,cortezkevin@example.com
+INV000098,ELE3827,Keyboard,3,2023-02-14 20:19:50,25.53,C0044,Belgium,Electronics,Michelle Harris,william40@example.org
+INV000099,BOO5634,Magazine,25,2025-08-03 20:22:51,41.47,C0021,Portugal,Books,David Bradley,millertodd@example.org
+INV000099,BOO6401,Technical Manual,7,2024-01-07 17:39:21,56.24,C0083,Spain,Books,Alexander Collins,tsanders@example.org
+INV000099,CLO2335,Hat,38,2023-09-04 00:45:57,66.7,C0078,Italy,Clothing,David Murphy,wmurphy@example.com
+INV000100,HOM2388,Cushion,20,2024-04-27 17:36:17,56.33,C0085,Spain,Home & Garden,Barbara Riggs,reedross@example.com
+INV000101,SPO7937,Tennis Racket,33,2025-05-05 16:46:00,36.82,C0090,Poland,Sports,Mary Rogers,lrosales@example.com
+INV000102,HOM4711,Plant Pot,9,2023-01-22 05:49:15,16.34,C0099,Netherlands,Home & Garden,Beth Oneill,agarcia@example.net
+INV000103,SPO6517,Football,50,2025-05-07 21:25:29,62.19,C0070,Germany,Sports,Jeremiah Reeves,josephflores@example.net
+INV000104,SPO8170,Yoga Mat,3,2024-09-25 18:59:43,41.68,C0089,Austria,Sports,Samuel Rivas,ramirezshannon@example.com
+INV000105,HOM9749,Plant Pot,16,2023-05-25 19:05:27,31.64,C0037,Germany,Home & Garden,Cynthia Wilson,bethwilliams@example.org
+INV000105,SPO8564,Water Bottle,50,2023-12-16 01:26:51,28.9,C0048,Australia,Sports,Rebecca Valencia,jason31@example.com
+INV000105,SPO5096,Yoga Mat,4,2023-06-26 06:08:13,64.48,C0026,Portugal,Sports,Shannon Jones,joshuawashington@example.net
+INV000106,ELE2374,Smart Watch,49,2024-12-17 20:01:27,16.87,C0067,Portugal,Electronics,Robert Contreras,stephanie79@example.net
+INV000106,CLO6727,Shorts,2,2023-07-02 11:27:19,42.07,C0012,France,Clothing,Jennifer Rocha,ithomas@example.org
+INV000107,BOO1461,Biography,21,2023-08-28 04:27:34,93.15,C0011,United Kingdom,Books,Andrew Stewart,carl95@example.org
+INV000107,ELE8740,Smart Watch,45,2025-02-13 04:47:07,83.28,C0018,Denmark,Electronics,Deborah Mason,williamrodriguez@example.net
+INV000108,ELE4533,Smart Watch,10,2024-03-29 09:23:15,55.33,C0011,United Kingdom,Electronics,Andrew Stewart,carl95@example.org
+INV000109,CLO2996,Shoes,4,2025-03-01 12:07:25,24.61,C0037,Germany,Clothing,Cynthia Wilson,bethwilliams@example.org
+INV000110,SPO1269,Golf Club,41,2024-02-29 18:01:08,52.02,C0064,Netherlands,Sports,Angel Riggs,gibsonolivia@example.net
+INV000111,BOO7825,Biography,12,2024-10-07 10:36:09,66.77,C0079,Belgium,Books,Trevor Fisher,ruizkaitlyn@example.org
+INV000112,SPO9316,Golf Club,36,2025-01-19 12:53:16,3.01,C0068,Switzerland,Sports,Jessica Meadows,vmerritt@example.com
+INV000113,BOO6850,Fiction Book,5,2025-01-03 13:37:46,35.14,C0048,Australia,Books,Rebecca Valencia,jason31@example.com
+INV000113,BOO1726,Cookbook,23,2024-01-14 14:56:48,55.06,C0095,France,Books,Jesse Parker,davidlee@example.org
+INV000113,HOM3209,Cushion,5,2024-12-10 14:14:02,71.89,C0060,Portugal,Home & Garden,Stephanie Gilbert,richard04@example.com
+INV000114,ELE6080,Camera,33,2025-05-06 08:39:06,40.42,C0026,Portugal,Electronics,Shannon Jones,joshuawashington@example.net
+INV000115,CLO6848,Shoes,50,2023-08-13 16:38:36,5.73,C0083,Spain,Clothing,Alexander Collins,tsanders@example.org
+INV000115,HOM7334,Clock,22,2024-08-18 21:07:23,97.4,C0056,Netherlands,Home & Garden,William Wilson,jonathanfletcher@example.org
+INV000115,BOO7955,Technical Manual,6,2023-10-24 02:28:10,43.63,C0067,Portugal,Books,Robert Contreras,stephanie79@example.net
+INV000116,ELE5843,Camera,20,2025-07-20 02:24:59,45.15,C0014,Switzerland,Electronics,Zachary Hicks,camposmichelle@example.org
+INV000117,ELE8126,Camera,18,2025-02-28 12:35:37,64.31,C0058,Poland,Electronics,Lisa Alvarado,cortezkevin@example.com
+INV000118,BOO3621,Atlas,2,2023-08-01 01:23:59,15.14,C0052,Austria,Books,Courtney Velasquez,ybailey@example.org
+INV000119,CLO6933,Hat,-25,2023-04-19 10:42:30,95.0,C0009,Denmark,Clothing,Daniel Adams,lynchgeorge@example.net
+INV000120,BOO2259,Dictionary,37,2024-03-05 03:14:58,14.63,C0048,Australia,Books,Rebecca Valencia,jason31@example.com
+INV000121,ELE9176,Tablet,34,2024-10-06 14:10:29,39.31,C0015,Canada,Electronics,Rebecca Henderson,cruzcaitlin@example.com
+INV000122,CLO5678,Boots,45,2024-06-11 23:28:02,91.73,C0058,Poland,Clothing,Lisa Alvarado,cortezkevin@example.com
+INV000122,CLO2438,Shorts,44,2025-02-27 17:49:57,96.79,C0058,Poland,Clothing,Lisa Alvarado,cortezkevin@example.com
+INV000122,SPO5914,Running Shoes,11,2024-02-20 00:55:07,71.47,C0071,Switzerland,Sports,Chris Reyes,jasminebrown@example.com
+INV000122,CLO4292,Jeans,9,2023-01-04 23:38:23,24.44,C0066,Austria,Clothing,Colleen Brock,pwilliams@example.org
+INV000123,SPO2412,Yoga Mat,5,2024-03-15 09:00:05,31.62,C0060,Portugal,Sports,Stephanie Gilbert,richard04@example.com
+INV000124,HOM2208,Curtains,9,2024-04-08 18:58:07,97.27,C0099,Netherlands,Home & Garden,Beth Oneill,agarcia@example.net
+INV000125,CLO3981,Skirt,50,2025-06-30 18:37:27,96.66,C0045,France,Clothing,Sandra Williams,kellie42@example.net
+INV000126,SPO5982,Yoga Mat,11,2025-06-19 21:06:38,17.03,C0016,United Kingdom,Sports,Tricia Valencia,frazierdanny@example.net
+INV000126,BOO5105,Technical Manual,13,2025-01-30 15:06:54,63.87,C0067,Portugal,Books,Robert Contreras,stephanie79@example.net
+INV000127,ELE3762,Keyboard,38,2023-08-19 20:02:19,94.22,C0069,Italy,Electronics,Paul Larsen,katie87@example.net
+INV000127,BOO1674,Encyclopedia,2,2024-11-24 16:29:36,9.04,C0078,Italy,Books,David Murphy,wmurphy@example.com
+INV000128,SPO1496,Helmet,32,2025-04-16 15:44:21,89.01,C0027,Spain,Sports,Timothy Duncan,esanchez@example.com
+INV000129,HOM8430,Picture Frame,5,2025-01-22 09:33:20,69.17,C0032,Austria,Home & Garden,Tammy Allison,richardolson@example.com
+INV000130,SPO6121,Yoga Mat,46,2024-06-20 03:09:11,32.61,C0044,Belgium,Sports,Michelle Harris,william40@example.org
+INV000131,BOO2739,Atlas,21,2024-05-31 10:15:35,24.93,C0098,Spain,Books,Adrian Ferguson,brandon08@example.com
+INV000132,BOO7850,Journal,16,2025-05-07 08:58:21,96.31,C0007,EIRE,Books,Shannon Ray,williamsjeremy@example.com
+INV000132,BOO3610,Biography,32,2025-04-24 04:32:28,99.6,C0093,Canada,Books,Alan Phillips,tholt@example.net
+INV000133,HOM8491,Rug,16,2024-08-08 23:24:36,22.3,C0012,France,Home & Garden,Jennifer Rocha,ithomas@example.org
+INV000134,HOM9793,Picture Frame,1,2024-12-08 08:28:39,84.87,C0084,Portugal,Home & Garden,Michael Burton,terrykevin@example.net
+INV000134,HOM1741,Candle,26,2024-05-14 20:43:44,6.06,C0098,Spain,Home & Garden,Adrian Ferguson,brandon08@example.com
+INV000135,SPO5582,Water Bottle,40,2023-10-21 01:28:12,68.36,C0050,Switzerland,Sports,Rita Keith,whitesandra@example.com
+INV000136,SPO3363,Bicycle,13,2024-01-06 23:18:57,60.64,C0044,Belgium,Sports,Michelle Harris,william40@example.org
+INV000137,BOO9508,Dictionary,30,2025-06-07 06:09:40,15.75,C0092,Spain,Books,Jason Peters,hannahbrewer@example.com
+INV000137,CLO5902,Sweater,38,2024-08-17 22:11:17,34.3,C0041,France,Clothing,Sherry Wood,samueldaniels@example.com
+INV000137,HOM7035,Vase,22,2023-12-29 19:50:20,67.71,C0039,EIRE,Home & Garden,Michael Evans,sarah10@example.com
+INV000137,ELE8775,Mouse,17,2024-09-30 02:48:20,96.74,C0093,Canada,Electronics,Alan Phillips,tholt@example.net
+INV000138,ELE8871,Mouse,11,2023-03-09 19:17:21,52.9,C0093,Canada,Electronics,Alan Phillips,tholt@example.net
+INV000139,CLO2800,T-Shirt,13,2024-05-09 06:28:23,2.87,C0088,Denmark,Clothing,Robert Medina,umarshall@example.net
+INV000140,SPO8726,Basketball,48,2025-01-04 17:49:57,73.01,C0053,Portugal,Sports,Matthew Ross,michelle45@example.net
+INV000141,HOM7173,Rug,21,2024-08-15 05:19:38,95.71,C0085,Spain,Home & Garden,Barbara Riggs,reedross@example.com
+INV000142,BOO8932,Encyclopedia,13,2024-08-22 18:03:32,95.78,C0087,Portugal,Books,Madison Poole,ryangross@example.net
+INV000142,BOO9011,Biography,21,2023-08-25 06:53:50,48.5,C0039,EIRE,Books,Michael Evans,sarah10@example.com
+INV000142,ELE9899,Mouse,25,2025-02-08 11:11:25,89.68,C0037,Germany,Electronics,Cynthia Wilson,bethwilliams@example.org
+INV000142,BOO5712,Fiction Book,46,2023-02-27 12:11:28,8.82,C0019,Switzerland,Books,Mark Lynch,nathanielmartin@example.net
+INV000142,CLO5442,Skirt,36,2023-07-16 02:48:07,69.92,C0028,Belgium,Clothing,Brent Jordan,ujenkins@example.org
+INV000143,ELE4697,Keyboard,41,2025-02-19 06:46:16,24.05,C0032,Austria,Electronics,Tammy Allison,richardolson@example.com
+INV000144,CLO3587,T-Shirt,27,2025-07-05 19:31:16,65.64,C0088,Denmark,Clothing,Robert Medina,umarshall@example.net
+INV000145,BOO5676,Magazine,42,2024-05-30 17:39:34,6.86,C0097,EIRE,Books,Paige Carlson,wallkenneth@example.com
+INV000146,ELE7846,Tablet,-12,2023-06-05 21:51:48,93.46,C0095,France,Electronics,Jesse Parker,davidlee@example.org
+INV000146,BOO1151,Fiction Book,20,2024-11-14 23:48:19,57.23,C0024,Denmark,Books,Jessica Holmes,wrightcaleb@example.org
+INV000147,SPO9092,Golf Club,9,2023-06-04 21:31:17,85.25,C0083,Spain,Sports,Alexander Collins,tsanders@example.org
+INV000148,HOM4050,Picture Frame,1,2025-03-28 00:52:39,73.93,C0021,Portugal,Home & Garden,David Bradley,millertodd@example.org
+INV000148,SPO8007,Helmet,33,2024-12-10 19:30:48,33.46,C0023,Netherlands,Sports,Lisa Brandt,jenniferross@example.net
+INV000148,BOO1111,Biography,17,2023-01-24 20:11:59,38.97,C0062,Netherlands,Books,Steven Flynn,donnacampbell@example.net
+INV000149,SPO5285,Football,42,2023-08-12 22:30:12,36.6,C0075,Portugal,Sports,Stephanie Freeman,ryan06@example.com
+INV000150,HOM6095,Rug,45,2024-09-28 21:06:38,12.62,C0021,Portugal,Home & Garden,David Bradley,millertodd@example.org
+INV000151,CLO3509,Shorts,30,2023-08-28 19:00:12,75.03,C0029,Italy,Clothing,Victoria Garcia,zchandler@example.org
+INV000152,SPO5054,Dumbbell,44,2023-04-27 05:47:57,75.72,C0061,France,Sports,Richard Lawson,steven73@example.net
+INV000153,BOO2838,Technical Manual,4,2024-12-30 07:52:41,83.05,C0091,Switzerland,Books,Robert Peterson,angela83@example.org
+INV000154,BOO8239,Atlas,8,2024-02-16 16:45:55,68.35,C0022,United Kingdom,Books,Kim Martinez,karroyo@example.com
+INV000154,ELE3161,Monitor,33,2024-06-09 22:28:39,42.13,C0058,Poland,Electronics,Lisa Alvarado,cortezkevin@example.com
+INV000155,ELE5169,Speaker,1,2024-09-09 11:15:08,74.83,C0040,Austria,Electronics,Kristine Garcia,williamanderson@example.com
+INV000156,SPO2130,Football,31,2023-05-05 18:22:19,4.14,C0009,Denmark,Sports,Daniel Adams,lynchgeorge@example.net
+INV000156,HOM7266,Candle,29,2024-05-25 09:48:46,87.09,C0094,USA,Home & Garden,Kara Schmidt,jbarajas@example.com
+INV000157,SPO6697,Yoga Mat,8,2025-04-08 22:52:54,18.67,C0085,Spain,Sports,Barbara Riggs,reedross@example.com
+INV000157,ELE5888,Laptop,30,2024-08-13 07:46:37,67.68,C0029,Italy,Electronics,Victoria Garcia,zchandler@example.org
+INV000157,HOM3541,Candle,18,2024-05-06 21:59:00,19.66,C0032,Austria,Home & Garden,Tammy Allison,richardolson@example.com
+INV000158,HOM1256,Curtains,16,2025-01-28 00:00:02,21.4,C0085,Spain,Home & Garden,Barbara Riggs,reedross@example.com
+INV000159,ELE1724,Headphones,26,2025-04-20 10:32:20,44.46,C0091,Switzerland,Electronics,Robert Peterson,angela83@example.org
+INV000159,SPO4836,Running Shoes,47,2023-02-25 18:24:55,58.03,C0018,Denmark,Sports,Deborah Mason,williamrodriguez@example.net
+INV000159,BOO9540,Cookbook,15,2023-04-17 06:54:37,41.94,C0031,France,Books,Angela Morton,williamsyvette@example.org
+INV000160,CLO9120,Sweater,4,2023-12-31 16:52:08,97.26,C0095,France,Clothing,Jesse Parker,davidlee@example.org
+INV000160,HOM3444,Mirror,20,2024-03-22 10:15:56,38.27,C0041,France,Home & Garden,Sherry Wood,samueldaniels@example.com
+INV000160,CLO1944,Shorts,36,2023-12-20 09:18:11,41.86,C0039,EIRE,Clothing,Michael Evans,sarah10@example.com
+INV000161,CLO2295,Hat,29,2023-05-21 09:35:08,84.87,C0033,EIRE,Clothing,Carmen Smith,ybaker@example.com
+INV000162,HOM1647,Curtains,5,2024-11-05 03:37:44,19.63,C0035,Poland,Home & Garden,Lauren Daniels,brian97@example.net
+INV000163,CLO5967,Hat,1,2023-06-02 22:13:32,21.97,C0062,Netherlands,Clothing,Steven Flynn,donnacampbell@example.net
+INV000163,HOM4350,Plant Pot,26,2023-06-06 03:10:53,91.6,C0097,EIRE,Home & Garden,Paige Carlson,wallkenneth@example.com
+INV000164,BOO5285,Textbook,24,2024-11-20 05:32:07,51.77,C0069,Italy,Books,Paul Larsen,katie87@example.net
+INV000164,BOO7073,Biography,21,2023-09-16 10:31:43,41.98,C0061,France,Books,Richard Lawson,steven73@example.net
+INV000165,SPO7841,Basketball,19,2024-04-10 04:54:16,16.09,C0034,Poland,Sports,Michael Cross,smoore@example.org
+INV000165,SPO5216,Bicycle,49,2023-02-14 23:13:54,82.34,C0064,Netherlands,Sports,Angel Riggs,gibsonolivia@example.net
+INV000166,BOO3293,Cookbook,47,2023-03-13 10:40:03,55.11,C0022,United Kingdom,Books,Kim Martinez,karroyo@example.com
+INV000166,SPO2217,Football,-43,2024-05-18 21:33:50,5.8,C0008,France,Sports,Dr. Sharon James,xreid@example.org
+INV000167,CLO4583,T-Shirt,33,2023-03-29 04:16:35,46.14,C0009,Denmark,Clothing,Daniel Adams,lynchgeorge@example.net
+INV000167,HOM1108,Vase,-35,2024-03-31 17:32:36,55.61,C0062,Netherlands,Home & Garden,Steven Flynn,donnacampbell@example.net
+INV000168,ELE8054,Keyboard,12,2024-07-10 20:28:55,11.59,C0037,Germany,Electronics,Cynthia Wilson,bethwilliams@example.org
+INV000169,BOO5379,Magazine,26,2024-08-05 07:05:19,8.82,C0068,Switzerland,Books,Jessica Meadows,vmerritt@example.com
+INV000170,CLO2320,Shoes,42,2024-10-31 01:10:02,99.18,C0090,Poland,Clothing,Mary Rogers,lrosales@example.com
+INV000171,SPO1919,Water Bottle,41,2023-08-15 03:14:07,1.94,C0049,France,Sports,Stacey Russell,sarayoung@example.org
+INV000172,SPO9653,Tennis Racket,3,2024-01-15 08:20:24,23.75,C0043,Poland,Sports,Shawn Baker,newtoneric@example.com
+INV000173,ELE5593,Smartphone,-35,2025-04-05 03:18:56,56.79,C0035,Poland,Electronics,Lauren Daniels,brian97@example.net
+INV000174,SPO7525,Yoga Mat,5,2024-10-02 02:24:09,30.63,C0027,Spain,Sports,Timothy Duncan,esanchez@example.com
+INV000174,SPO7288,Bicycle,49,2025-05-29 03:19:38,74.23,C0087,Portugal,Sports,Madison Poole,ryangross@example.net
+INV000175,BOO2600,Fiction Book,28,2023-10-07 17:00:26,23.98,C0096,Germany,Books,Tiffany Vaughn,javierwashington@example.net
+INV000176,HOM1485,Candle,41,2023-09-22 01:26:59,28.06,C0077,Belgium,Home & Garden,James Elliott,millerroy@example.com
+INV000177,HOM7227,Cushion,6,2023-09-29 23:03:31,77.44,C0049,France,Home & Garden,Stacey Russell,sarayoung@example.org
+INV000178,CLO3527,Sweater,48,2023-05-03 16:09:12,39.57,C0035,Poland,Clothing,Lauren Daniels,brian97@example.net
+INV000178,BOO2674,Textbook,9,2025-08-04 19:30:02,9.64,C0057,Poland,Books,Renee Mcdaniel,michaeljones@example.net
+INV000179,ELE6798,Smartphone,36,2024-08-17 06:17:06,10.21,C0014,Switzerland,Electronics,Zachary Hicks,camposmichelle@example.org
+INV000180,HOM2387,Mirror,47,2024-01-10 02:47:07,90.21,C0038,Japan,Home & Garden,Kevin Mills,james53@example.com
+INV000181,HOM3274,Cushion,18,2025-02-12 02:22:47,30.81,C0022,United Kingdom,Home & Garden,Kim Martinez,karroyo@example.com
+INV000182,BOO2260,Dictionary,24,2025-06-24 21:40:25,25.92,C0054,Japan,Books,Meghan Anthony,sheila14@example.org
+INV000183,HOM3219,Lamp,20,2023-08-11 07:48:55,1.67,C0026,Portugal,Home & Garden,Shannon Jones,joshuawashington@example.net
+INV000184,HOM8055,Candle,42,2023-12-27 16:36:45,97.45,C0043,Poland,Home & Garden,Shawn Baker,newtoneric@example.com
+INV000184,HOM3910,Candle,26,2024-12-17 08:54:53,96.9,C0026,Portugal,Home & Garden,Shannon Jones,joshuawashington@example.net
+INV000185,CLO7161,Hat,18,2024-01-30 12:57:41,81.83,C0074,Austria,Clothing,Sarah Ashley,vmedina@example.net
+INV000186,SPO1440,Yoga Mat,47,2024-12-14 22:01:48,46.7,C0076,France,Sports,Rebecca Ramsey,ncalhoun@example.net
+INV000187,ELE9180,Speaker,9,2024-02-01 15:16:10,63.7,C0089,Austria,Electronics,Samuel Rivas,ramirezshannon@example.com
+INV000187,ELE8851,Monitor,38,2023-01-15 14:21:41,40.68,C0049,France,Electronics,Stacey Russell,sarayoung@example.org
+INV000188,ELE9796,Camera,39,2024-12-23 17:53:54,64.18,C0070,Germany,Electronics,Jeremiah Reeves,josephflores@example.net
+INV000189,CLO1725,Boots,37,2024-03-22 19:41:08,98.38,C0046,Germany,Clothing,Michael Hoffman,jonesnicole@example.org
+INV000189,ELE2615,Laptop,17,2025-04-29 02:39:20,22.98,C0056,Netherlands,Electronics,William Wilson,jonathanfletcher@example.org
+INV000190,HOM7408,Candle,30,2023-09-03 09:45:29,77.46,C0029,Italy,Home & Garden,Victoria Garcia,zchandler@example.org
+INV000191,HOM5840,Lamp,27,2023-04-25 17:46:16,92.13,C0004,Switzerland,Home & Garden,Abigail Shaffer,jpeterson@example.org
+INV000191,BOO8460,Magazine,14,2024-11-17 04:52:47,52.59,C0045,France,Books,Sandra Williams,kellie42@example.net
+INV000191,BOO5919,Technical Manual,3,2024-06-20 19:37:12,81.21,C0058,Poland,Books,Lisa Alvarado,cortezkevin@example.com
+INV000192,CLO9454,Jacket,12,2025-07-01 18:15:39,55.64,C0087,Portugal,Clothing,Madison Poole,ryangross@example.net
+INV000193,CLO8080,Dress,26,2024-04-09 17:16:43,3.89,C0052,Austria,Clothing,Courtney Velasquez,ybailey@example.org
+INV000194,ELE4371,Headphones,18,2024-10-21 03:23:01,75.48,C0050,Switzerland,Electronics,Rita Keith,whitesandra@example.com
+INV000195,CLO6340,Hat,13,2024-01-24 12:20:15,46.3,C0069,Italy,Clothing,Paul Larsen,katie87@example.net
+INV000196,BOO7367,Encyclopedia,40,2024-12-10 16:04:24,39.86,C0082,Japan,Books,Jacob Obrien,stricklandfrank@example.com
+INV000197,BOO2388,Encyclopedia,44,2024-04-14 07:54:44,14.26,C0023,Netherlands,Books,Lisa Brandt,jenniferross@example.net
+INV000198,CLO7364,Skirt,27,2023-11-06 11:20:52,60.05,C0089,Austria,Clothing,Samuel Rivas,ramirezshannon@example.com
+INV000199,CLO3733,Skirt,32,2024-08-20 14:24:13,29.59,C0069,Italy,Clothing,Paul Larsen,katie87@example.net
+INV000200,ELE3236,Monitor,13,2025-01-20 15:18:08,81.71,C0046,Germany,Electronics,Michael Hoffman,jonesnicole@example.org
+INV000201,HOM8272,Mirror,32,2023-06-15 16:19:19,17.56,C0088,Denmark,Home & Garden,Robert Medina,umarshall@example.net
+INV000202,BOO9808,Biography,19,2024-01-04 11:40:10,17.65,C0005,Switzerland,Books,Gabrielle Davis,howardmaurice@example.com
+INV000202,SPO2871,Tennis Racket,18,2024-08-15 10:17:29,77.74,C0071,Switzerland,Sports,Chris Reyes,jasminebrown@example.com
+INV000202,HOM4580,Rug,28,2025-06-07 10:49:24,11.14,C0006,Spain,Home & Garden,Monica Herrera,smiller@example.net
+INV000203,HOM6711,Picture Frame,6,2024-07-11 14:58:02,44.47,C0005,Switzerland,Home & Garden,Gabrielle Davis,howardmaurice@example.com
+INV000204,SPO8015,Bicycle,11,2025-06-11 22:32:31,62.0,C0095,France,Sports,Jesse Parker,davidlee@example.org
+INV000204,BOO5605,Atlas,39,2024-04-04 14:55:19,54.34,C0073,Italy,Books,Alicia Gilmore,wwoods@example.com
+INV000205,SPO3221,Tennis Racket,49,2024-04-03 15:00:01,78.78,C0035,Poland,Sports,Lauren Daniels,brian97@example.net
+INV000205,CLO3396,Jacket,46,2023-02-04 01:58:02,32.89,C0017,Belgium,Clothing,Patricia Peterson,ryan70@example.net
+INV000206,SPO7786,Running Shoes,25,2024-09-06 20:42:27,45.75,C0019,Switzerland,Sports,Mark Lynch,nathanielmartin@example.net
+INV000207,BOO8449,Magazine,-32,2024-03-02 09:22:13,33.4,C0066,Austria,Books,Colleen Brock,pwilliams@example.org
+INV000207,HOM2037,Candle,35,2023-01-13 13:54:50,40.37,C0094,USA,Home & Garden,Kara Schmidt,jbarajas@example.com
+INV000208,BOO9967,Magazine,37,2025-05-29 03:21:46,13.93,C0042,Australia,Books,Victoria Valdez,contrerasangela@example.net
+INV000208,ELE2631,Laptop,41,2023-03-18 04:30:07,78.61,C0098,Spain,Electronics,Adrian Ferguson,brandon08@example.com
+INV000208,HOM8009,Vase,13,2025-07-31 00:28:21,99.57,C0057,Poland,Home & Garden,Renee Mcdaniel,michaeljones@example.net
+INV000209,ELE5102,Camera,6,2025-02-10 15:20:07,37.81,C0036,Portugal,Electronics,Kim Brown,yorkcasey@example.org
+INV000210,CLO2494,Sweater,46,2024-03-20 14:05:28,10.42,C0040,Austria,Clothing,Kristine Garcia,williamanderson@example.com
+INV000211,HOM1132,Vase,45,2023-12-24 11:26:07,35.01,C0067,Portugal,Home & Garden,Robert Contreras,stephanie79@example.net
+INV000212,ELE7276,Headphones,6,2025-08-01 01:01:24,73.35,C0062,Netherlands,Electronics,Steven Flynn,donnacampbell@example.net
+INV000212,HOM3340,Cushion,-5,2024-07-01 07:28:38,53.52,C0018,Denmark,Home & Garden,Deborah Mason,williamrodriguez@example.net
+INV000213,CLO7745,Dress,40,2023-12-07 05:04:51,68.97,C0093,Canada,Clothing,Alan Phillips,tholt@example.net
+INV000214,ELE7291,Mouse,23,2023-10-23 08:38:03,96.36,C0097,EIRE,Electronics,Paige Carlson,wallkenneth@example.com
+INV000215,CLO5668,Skirt,-50,2024-01-25 08:02:39,94.19,C0011,United Kingdom,Clothing,Andrew Stewart,carl95@example.org
+INV000215,SPO9348,Basketball,13,2023-08-01 11:29:58,75.04,C0027,Spain,Sports,Timothy Duncan,esanchez@example.com
+INV000215,HOM2847,Mirror,16,2023-05-31 22:32:01,50.46,C0031,France,Home & Garden,Angela Morton,williamsyvette@example.org
+INV000215,BOO7337,Cookbook,37,2023-03-03 05:46:48,42.67,C0047,Switzerland,Books,Sandra Aguilar,russellwilliams@example.com
+INV000216,ELE2106,Laptop,-1,2024-04-24 21:51:09,26.96,C0099,Netherlands,Electronics,Beth Oneill,agarcia@example.net
+INV000216,BOO7806,Atlas,28,2024-11-15 19:04:47,70.48,C0065,Japan,Books,Michael Snyder,dylanwatts@example.org
+INV000217,ELE2294,Smart Watch,33,2023-02-21 19:55:11,92.17,C0036,Portugal,Electronics,Kim Brown,yorkcasey@example.org
+INV000218,ELE8167,Smart Watch,47,2025-06-19 08:04:39,95.39,C0076,France,Electronics,Rebecca Ramsey,ncalhoun@example.net
+INV000218,HOM1901,Curtains,20,2024-07-20 19:00:45,66.94,C0015,Canada,Home & Garden,Rebecca Henderson,cruzcaitlin@example.com
+INV000219,ELE9133,Tablet,23,2023-07-24 03:23:14,52.78,C0018,Denmark,Electronics,Deborah Mason,williamrodriguez@example.net
+INV000220,BOO1480,Technical Manual,22,2023-05-21 00:24:56,80.9,C0017,Belgium,Books,Patricia Peterson,ryan70@example.net
+INV000220,ELE8457,Monitor,33,2024-04-03 10:30:54,36.65,C0074,Austria,Electronics,Sarah Ashley,vmedina@example.net
+INV000221,ELE2889,Mouse,-15,2024-05-22 12:58:18,74.34,C0033,EIRE,Electronics,Carmen Smith,ybaker@example.com
+INV000222,HOM7274,Candle,10,2024-10-07 11:04:41,18.72,C0006,Spain,Home & Garden,Monica Herrera,smiller@example.net
+INV000222,HOM6272,Plant Pot,16,2023-09-30 20:20:11,42.21,C0092,Spain,Home & Garden,Jason Peters,hannahbrewer@example.com
+INV000223,ELE1862,Keyboard,12,2023-11-08 22:10:21,23.1,C0048,Australia,Electronics,Rebecca Valencia,jason31@example.com
+INV000224,BOO6362,Textbook,-6,2023-07-25 07:16:27,55.76,C0060,Portugal,Books,Stephanie Gilbert,richard04@example.com
+INV000225,SPO8600,Dumbbell,24,2025-04-17 22:34:43,59.58,C0039,EIRE,Sports,Michael Evans,sarah10@example.com
+INV000226,CLO1104,Dress,27,2024-07-22 08:09:26,3.37,C0070,Germany,Clothing,Jeremiah Reeves,josephflores@example.net
+INV000227,BOO7164,Fiction Book,48,2025-04-04 15:36:39,72.99,C0002,United Kingdom,Books,Angie Henderson,davisjesse@example.net
+INV000228,ELE5584,Tablet,6,2025-02-18 12:15:52,5.35,C0063,Switzerland,Electronics,Frances Cardenas,emilywalker@example.org
+INV000229,HOM2565,Lamp,33,2024-02-28 08:33:21,14.22,C0048,Australia,Home & Garden,Rebecca Valencia,jason31@example.com
+INV000230,CLO5778,Jacket,17,2023-09-13 14:39:38,85.24,C0056,Netherlands,Clothing,William Wilson,jonathanfletcher@example.org
+INV000230,BOO5455,Dictionary,15,2024-02-04 04:32:20,8.39,C0042,Australia,Books,Victoria Valdez,contrerasangela@example.net
+INV000231,ELE8365,Tablet,30,2025-01-18 12:35:20,32.09,C0020,Japan,Electronics,Linda Burns,hickmannatasha@example.com
+INV000231,BOO5341,Dictionary,8,2024-04-03 11:40:14,9.95,C0058,Poland,Books,Lisa Alvarado,cortezkevin@example.com
+INV000231,ELE6370,Headphones,10,2024-06-10 04:13:11,10.03,C0078,Italy,Electronics,David Murphy,wmurphy@example.com
+INV000232,BOO3848,Textbook,2,2023-06-28 21:50:16,95.26,C0087,Portugal,Books,Madison Poole,ryangross@example.net
+INV000233,HOM3290,Lamp,8,2024-12-28 12:39:34,2.18,C0013,Belgium,Home & Garden,Kimberly Burgess,zhurst@example.com
+INV000234,BOO5240,Technical Manual,5,2023-04-27 23:21:49,3.16,C0052,Austria,Books,Courtney Velasquez,ybailey@example.org
+INV000235,ELE3007,Camera,3,2023-08-07 15:48:06,94.29,C0017,Belgium,Electronics,Patricia Peterson,ryan70@example.net
+INV000236,HOM1483,Clock,25,2023-12-17 11:31:31,68.64,C0093,Canada,Home & Garden,Alan Phillips,tholt@example.net
+INV000237,HOM1567,Cushion,40,2024-09-09 08:34:27,62.3,C0036,Portugal,Home & Garden,Kim Brown,yorkcasey@example.org
+INV000238,HOM2437,Vase,18,2025-05-15 18:07:13,38.92,C0071,Switzerland,Home & Garden,Chris Reyes,jasminebrown@example.com
+INV000238,SPO7266,Football,46,2024-07-22 05:04:56,36.55,C0032,Austria,Sports,Tammy Allison,richardolson@example.com
+INV000238,BOO5430,Journal,12,2023-05-21 06:44:06,3.58,C0065,Japan,Books,Michael Snyder,dylanwatts@example.org
+INV000238,ELE9674,Monitor,23,2024-09-04 22:48:21,76.92,C0036,Portugal,Electronics,Kim Brown,yorkcasey@example.org
+INV000239,CLO9743,Shoes,48,2023-01-22 14:55:30,6.53,C0085,Spain,Clothing,Barbara Riggs,reedross@example.com
+INV000239,BOO3885,Cookbook,16,2024-02-15 19:43:49,59.66,C0050,Switzerland,Books,Rita Keith,whitesandra@example.com
+INV000239,BOO3328,Encyclopedia,37,2025-04-13 12:51:56,94.89,C0004,Switzerland,Books,Abigail Shaffer,jpeterson@example.org
+INV000239,BOO9035,Cookbook,3,2023-07-11 23:43:19,9.94,C0070,Germany,Books,Jeremiah Reeves,josephflores@example.net
+INV000240,BOO4300,Encyclopedia,9,2024-12-07 11:39:07,34.74,C0001,EIRE,Books,Allison Hill,donaldgarcia@example.net
+INV000240,ELE3320,Tablet,50,2024-07-26 13:52:09,11.98,C0008,France,Electronics,Dr. Sharon James,xreid@example.org
+INV000241,HOM2655,Curtains,22,2024-02-12 06:05:08,30.87,C0091,Switzerland,Home & Garden,Robert Peterson,angela83@example.org
+INV000241,HOM3854,Candle,46,2025-06-27 01:58:47,96.91,C0082,Japan,Home & Garden,Jacob Obrien,stricklandfrank@example.com
+INV000241,SPO7199,Yoga Mat,20,2024-08-14 21:39:36,73.67,C0029,Italy,Sports,Victoria Garcia,zchandler@example.org
+INV000242,SPO1530,Helmet,12,2024-07-31 01:32:28,60.64,C0090,Poland,Sports,Mary Rogers,lrosales@example.com
+INV000243,ELE3304,Monitor,22,2023-06-18 07:26:07,74.79,C0073,Italy,Electronics,Alicia Gilmore,wwoods@example.com
+INV000244,BOO1186,Dictionary,17,2023-12-30 05:30:44,21.76,C0012,France,Books,Jennifer Rocha,ithomas@example.org
+INV000244,ELE7323,Laptop,29,2025-01-02 09:55:54,73.53,C0093,Canada,Electronics,Alan Phillips,tholt@example.net
+INV000245,BOO7149,Atlas,7,2023-02-08 20:59:11,83.05,C0049,France,Books,Stacey Russell,sarayoung@example.org
+INV000245,CLO2207,Shorts,3,2025-05-22 02:47:03,30.2,C0029,Italy,Clothing,Victoria Garcia,zchandler@example.org
+INV000246,HOM2228,Cushion,36,2024-05-24 12:57:37,94.24,C0022,United Kingdom,Home & Garden,Kim Martinez,karroyo@example.com
+INV000246,ELE3703,Speaker,39,2025-08-05 17:30:46,89.09,C0062,Netherlands,Electronics,Steven Flynn,donnacampbell@example.net
+INV000247,HOM9849,Rug,17,2023-12-10 21:10:02,66.4,C0025,Italy,Home & Garden,Crystal Robinson,zimmermanbrian@example.org
+INV000248,HOM1893,Cushion,24,2023-04-09 04:54:07,1.38,C0071,Switzerland,Home & Garden,Chris Reyes,jasminebrown@example.com
+INV000249,CLO1421,Jeans,14,2024-12-22 05:08:53,17.91,C0062,Netherlands,Clothing,Steven Flynn,donnacampbell@example.net
+INV000249,HOM9013,Clock,43,2024-04-14 10:27:58,27.24,C0040,Austria,Home & Garden,Kristine Garcia,williamanderson@example.com
+INV000250,BOO8303,Cookbook,3,2024-09-26 06:22:22,27.07,C0049,France,Books,Stacey Russell,sarayoung@example.org
+INV000251,CLO2404,Jeans,43,2023-07-01 05:59:39,35.04,C0008,France,Clothing,Dr. Sharon James,xreid@example.org
+INV000252,ELE9561,Speaker,27,2023-08-06 03:15:53,96.6,C0071,Switzerland,Electronics,Chris Reyes,jasminebrown@example.com
+INV000253,HOM2293,Picture Frame,26,2023-03-12 10:39:05,90.37,C0031,France,Home & Garden,Angela Morton,williamsyvette@example.org
+INV000253,SPO2970,Yoga Mat,49,2023-02-27 19:22:07,45.45,C0074,Austria,Sports,Sarah Ashley,vmedina@example.net
+INV000254,CLO7936,T-Shirt,6,2024-04-17 19:32:02,98.84,C0025,Italy,Clothing,Crystal Robinson,zimmermanbrian@example.org
+INV000255,BOO2097,Magazine,6,2025-02-04 06:22:37,39.42,C0077,Belgium,Books,James Elliott,millerroy@example.com
+INV000256,ELE9561,Mouse,27,2023-06-30 09:17:07,12.14,C0059,Belgium,Electronics,Erika Terry,jamesortega@example.com
+INV000257,ELE2654,Mouse,19,2023-05-31 23:34:49,86.88,C0013,Belgium,Electronics,Kimberly Burgess,zhurst@example.com
+INV000258,HOM8750,Curtains,3,2023-12-31 17:58:46,18.05,C0084,Portugal,Home & Garden,Michael Burton,terrykevin@example.net
+INV000259,ELE6431,Speaker,45,2025-04-15 01:11:24,24.52,C0052,Austria,Electronics,Courtney Velasquez,ybailey@example.org
+INV000259,BOO6094,Textbook,18,2023-07-30 17:55:20,84.44,C0003,Portugal,Books,Cristian Santos,lrobinson@example.com
+INV000259,CLO8259,Shoes,50,2024-08-26 17:46:00,82.76,C0030,EIRE,Clothing,Connor West,dwhite@example.org
+INV000260,HOM7671,Plant Pot,48,2024-12-05 17:03:54,48.96,C0025,Italy,Home & Garden,Crystal Robinson,zimmermanbrian@example.org
+INV000261,ELE9303,Smart Watch,26,2024-07-30 08:18:42,14.43,C0021,Portugal,Electronics,David Bradley,millertodd@example.org
+INV000262,CLO5087,T-Shirt,3,2025-04-19 03:50:09,46.19,C0025,Italy,Clothing,Crystal Robinson,zimmermanbrian@example.org
+INV000263,SPO3029,Helmet,44,2024-10-13 02:10:40,4.03,C0060,Portugal,Sports,Stephanie Gilbert,richard04@example.com
+INV000264,SPO6730,Golf Club,23,2025-07-01 09:38:06,17.19,C0061,France,Sports,Richard Lawson,steven73@example.net
+INV000265,ELE1813,Speaker,11,2023-08-29 01:01:52,85.53,C0037,Germany,Electronics,Cynthia Wilson,bethwilliams@example.org
+INV000266,CLO7709,Shoes,33,2024-10-06 12:00:58,2.99,C0029,Italy,Clothing,Victoria Garcia,zchandler@example.org
+INV000267,CLO1138,Boots,15,2023-06-03 19:47:38,25.99,C0017,Belgium,Clothing,Patricia Peterson,ryan70@example.net
+INV000267,BOO7168,Journal,23,2025-01-30 04:10:47,46.44,C0083,Spain,Books,Alexander Collins,tsanders@example.org
+INV000268,HOM2676,Curtains,1,2024-09-25 23:39:46,51.64,C0080,USA,Home & Garden,Mrs. Marie Harrington DDS,herringjames@example.org
+INV000269,SPO5631,Basketball,20,2024-03-10 13:28:06,68.76,C0083,Spain,Sports,Alexander Collins,tsanders@example.org
+INV000270,BOO5895,Textbook,13,2023-02-20 19:45:05,15.84,C0042,Australia,Books,Victoria Valdez,contrerasangela@example.net
+INV000270,HOM3292,Candle,47,2024-07-29 14:21:29,3.52,C0077,Belgium,Home & Garden,James Elliott,millerroy@example.com
+INV000270,HOM4111,Vase,22,2023-12-04 12:24:03,72.93,C0052,Austria,Home & Garden,Courtney Velasquez,ybailey@example.org
+INV000270,BOO5918,Atlas,11,2024-11-19 18:31:10,84.22,C0086,Switzerland,Books,Matthew Smith,gshort@example.com
+INV000271,BOO3999,Atlas,44,2024-11-21 19:27:47,90.06,C0017,Belgium,Books,Patricia Peterson,ryan70@example.net
+INV000272,HOM7089,Candle,17,2024-01-02 18:55:01,58.97,C0040,Austria,Home & Garden,Kristine Garcia,williamanderson@example.com
+INV000273,SPO2166,Basketball,31,2024-07-17 09:54:56,89.05,C0082,Japan,Sports,Jacob Obrien,stricklandfrank@example.com
+INV000274,HOM3470,Vase,9,2023-06-04 08:12:31,99.24,C0039,EIRE,Home & Garden,Michael Evans,sarah10@example.com
+INV000274,CLO3954,Hat,50,2024-07-24 15:14:23,9.0,C0059,Belgium,Clothing,Erika Terry,jamesortega@example.com
+INV000275,ELE5481,Monitor,14,2025-04-25 19:09:30,76.36,C0008,France,Electronics,Dr. Sharon James,xreid@example.org
+INV000276,ELE8105,Tablet,41,2024-07-11 04:19:48,43.51,C0098,Spain,Electronics,Adrian Ferguson,brandon08@example.com
+INV000277,CLO1230,Hat,21,2023-04-05 01:28:15,0.0,C0069,Italy,Clothing,Paul Larsen,katie87@example.net
+INV000278,BOO2682,Cookbook,25,2024-09-10 11:43:18,50.83,C0045,France,Books,Sandra Williams,kellie42@example.net
+INV000279,HOM9587,Rug,22,2024-03-04 13:36:20,43.93,C0038,Japan,Home & Garden,Kevin Mills,james53@example.com
+INV000279,BOO3701,Biography,26,2023-10-22 20:34:33,2.89,C0063,Switzerland,Books,Frances Cardenas,emilywalker@example.org
+INV000280,SPO3768,Golf Club,8,2023-07-09 18:26:39,37.29,C0003,Portugal,Sports,Cristian Santos,lrobinson@example.com
+INV000280,SPO1796,Basketball,39,2024-12-07 09:05:32,99.47,C0033,EIRE,Sports,Carmen Smith,ybaker@example.com
+INV000281,ELE8279,Speaker,25,2023-05-23 09:49:58,13.24,C0089,Austria,Electronics,Samuel Rivas,ramirezshannon@example.com
+INV000282,ELE7895,Smart Watch,43,2023-11-26 11:52:40,11.0,C0088,Denmark,Electronics,Robert Medina,umarshall@example.net
+INV000282,ELE2928,Keyboard,19,2025-07-16 15:12:53,12.29,C0054,Japan,Electronics,Meghan Anthony,sheila14@example.org
+INV000283,SPO6864,Dumbbell,46,2023-02-03 04:15:49,41.57,C0034,Poland,Sports,Michael Cross,smoore@example.org
+INV000283,HOM4842,Candle,1,2023-03-20 13:42:12,2.26,C0089,Austria,Home & Garden,Samuel Rivas,ramirezshannon@example.com
+INV000284,CLO9383,Jeans,5,2024-06-02 02:07:21,72.63,C0064,Netherlands,Clothing,Angel Riggs,gibsonolivia@example.net
+INV000285,BOO1820,Dictionary,7,2024-01-14 08:54:23,81.5,C0038,Japan,Books,Kevin Mills,james53@example.com
+INV000286,BOO2898,Journal,7,2023-07-15 14:46:57,0.0,C0087,Portugal,Books,Madison Poole,ryangross@example.net
+INV000287,SPO2522,Running Shoes,24,2025-05-27 00:59:33,81.68,C0057,Poland,Sports,Renee Mcdaniel,michaeljones@example.net
+INV000287,HOM7909,Clock,42,2023-11-15 18:37:06,88.73,C0035,Poland,Home & Garden,Lauren Daniels,brian97@example.net
+INV000287,ELE8908,Speaker,37,2023-04-17 13:58:18,68.16,C0021,Portugal,Electronics,David Bradley,millertodd@example.org
+INV000288,CLO8997,Shorts,8,2025-05-10 22:21:50,88.87,C0004,Switzerland,Clothing,Abigail Shaffer,jpeterson@example.org
+INV000289,SPO4669,Basketball,43,2023-11-18 19:23:11,87.44,C0002,United Kingdom,Sports,Angie Henderson,davisjesse@example.net
+INV000290,CLO6664,Shorts,43,2025-06-29 21:56:45,67.95,C0056,Netherlands,Clothing,William Wilson,jonathanfletcher@example.org
+INV000291,ELE3571,Laptop,33,2023-12-02 11:14:59,85.04,C0079,Belgium,Electronics,Trevor Fisher,ruizkaitlyn@example.org
+INV000292,BOO6421,Biography,18,2023-12-28 22:49:13,5.98,C0063,Switzerland,Books,Frances Cardenas,emilywalker@example.org
+INV000293,ELE8277,Monitor,37,2024-05-25 09:35:16,45.36,C0031,France,Electronics,Angela Morton,williamsyvette@example.org
+INV000294,ELE7609,Smartphone,27,2023-08-18 05:13:06,4.55,C0064,Netherlands,Electronics,Angel Riggs,gibsonolivia@example.net
+INV000294,BOO4389,Atlas,42,2025-07-14 19:48:21,67.48,C0080,USA,Books,Mrs. Marie Harrington DDS,herringjames@example.org
+INV000295,HOM8751,Candle,46,2023-01-05 09:43:01,66.06,C0029,Italy,Home & Garden,Victoria Garcia,zchandler@example.org
+INV000295,ELE6818,Camera,41,2024-03-06 17:33:19,96.48,C0029,Italy,Electronics,Victoria Garcia,zchandler@example.org
+INV000295,CLO3301,Shorts,46,2023-08-13 18:21:31,74.51,C0006,Spain,Clothing,Monica Herrera,smiller@example.net
+INV000296,HOM8488,Plant Pot,13,2023-07-21 22:27:28,71.96,C0016,United Kingdom,Home & Garden,Tricia Valencia,frazierdanny@example.net
+INV000296,SPO8381,Tennis Racket,30,2025-04-19 04:41:31,66.19,C0087,Portugal,Sports,Madison Poole,ryangross@example.net
+INV000297,ELE8091,Keyboard,38,2024-01-25 09:03:56,48.81,C0068,Switzerland,Electronics,Jessica Meadows,vmerritt@example.com
+INV000298,CLO2696,Dress,25,2023-09-29 01:43:27,66.09,C0075,Portugal,Clothing,Stephanie Freeman,ryan06@example.com
+INV000298,SPO5482,Dumbbell,26,2023-06-20 18:21:04,96.4,C0054,Japan,Sports,Meghan Anthony,sheila14@example.org
+INV000299,SPO5897,Golf Club,45,2023-02-10 01:09:13,55.23,C0053,Portugal,Sports,Matthew Ross,michelle45@example.net
+INV000300,CLO5760,Jacket,44,2023-07-24 17:58:50,35.18,C0028,Belgium,Clothing,Brent Jordan,ujenkins@example.org
+INV000301,SPO6281,Golf Club,46,2023-01-24 02:01:59,12.43,C0023,Netherlands,Sports,Lisa Brandt,jenniferross@example.net
+INV000302,HOM5684,Rug,28,2024-07-10 12:14:24,81.02,C0086,Switzerland,Home & Garden,Matthew Smith,gshort@example.com
+INV000303,ELE5374,Headphones,49,2024-01-05 14:43:59,78.77,C0086,Switzerland,Electronics,Matthew Smith,gshort@example.com
+INV000304,BOO9866,Biography,3,2025-07-03 18:01:41,36.51,C0008,France,Books,Dr. Sharon James,xreid@example.org
+INV000305,CLO7371,Skirt,16,2024-05-17 23:04:30,51.58,C0072,Germany,Clothing,John Brown,xprice@example.net
+INV000306,HOM7825,Mirror,44,2023-01-25 12:21:41,-3.2620701553507514,C0007,EIRE,Home & Garden,Shannon Ray,williamsjeremy@example.com
+INV000306,BOO9955,Encyclopedia,48,2023-09-28 16:22:09,60.74,C0082,Japan,Books,Jacob Obrien,stricklandfrank@example.com
+INV000307,ELE3847,Tablet,48,2024-02-17 05:37:04,51.87,C0023,Netherlands,Electronics,Lisa Brandt,jenniferross@example.net
+INV000308,CLO5178,Boots,1,2023-03-23 09:34:37,33.73,C0017,Belgium,Clothing,Patricia Peterson,ryan70@example.net
+INV000309,SPO5934,Football,32,2023-07-16 21:54:03,79.2,C0042,Australia,Sports,Victoria Valdez,contrerasangela@example.net
+INV000309,CLO9529,Dress,5,2024-10-15 22:32:49,78.84,C0068,Switzerland,Clothing,Jessica Meadows,vmerritt@example.com
+INV000310,CLO6437,Jacket,22,2025-03-28 05:53:24,36.72,C0045,France,Clothing,Sandra Williams,kellie42@example.net
+INV000311,ELE6668,Smartphone,29,2023-06-26 13:09:11,24.79,C0072,Germany,Electronics,John Brown,xprice@example.net
+INV000312,BOO2857,Journal,25,2023-04-09 17:36:55,26.4,C0006,Spain,Books,Monica Herrera,smiller@example.net
+INV000313,BOO9335,Atlas,29,2025-01-09 19:44:11,49.19,C0099,Netherlands,Books,Beth Oneill,agarcia@example.net
+INV000314,ELE9814,Tablet,35,2024-11-27 08:54:40,1.73,C0011,United Kingdom,Electronics,Andrew Stewart,carl95@example.org
+INV000314,HOM4368,Lamp,35,2024-07-16 09:47:28,83.05,C0088,Denmark,Home & Garden,Robert Medina,umarshall@example.net
+INV000315,CLO8523,T-Shirt,46,2025-03-08 06:53:52,33.84,C0010,Germany,Clothing,Joel Nelson,gabriellecameron@example.org
+INV000315,ELE4729,Mouse,17,2025-07-11 05:28:24,41.36,C0072,Germany,Electronics,John Brown,xprice@example.net
+INV000316,ELE1096,Keyboard,42,2023-06-19 09:49:41,72.31,C0050,Switzerland,Electronics,Rita Keith,whitesandra@example.com
+INV000317,BOO2738,Atlas,19,2024-12-03 03:59:00,78.9,C0010,Germany,Books,Joel Nelson,gabriellecameron@example.org
+INV000317,HOM1504,Mirror,31,2025-02-21 16:28:04,16.48,C0057,Poland,Home & Garden,Renee Mcdaniel,michaeljones@example.net
+INV000317,BOO5883,Cookbook,44,2023-12-11 03:58:24,88.81,C0070,Germany,Books,Jeremiah Reeves,josephflores@example.net
+INV000318,SPO3316,Golf Club,8,2023-03-09 08:45:56,5.14,C0002,United Kingdom,Sports,Angie Henderson,davisjesse@example.net
+INV000319,BOO6633,Biography,14,2025-03-21 01:06:37,41.85,C0011,United Kingdom,Books,Andrew Stewart,carl95@example.org
+INV000320,SPO4183,Running Shoes,8,2024-04-13 13:35:37,18.95,C0029,Italy,Sports,Victoria Garcia,zchandler@example.org
+INV000320,HOM2198,Rug,19,2024-12-12 13:03:46,67.5,C0071,Switzerland,Home & Garden,Chris Reyes,jasminebrown@example.com
+INV000321,BOO4842,Cookbook,7,2023-02-18 09:22:48,29.23,C0043,Poland,Books,Shawn Baker,newtoneric@example.com
+INV000322,SPO3496,Running Shoes,37,2023-04-05 11:44:07,57.12,C0043,Poland,Sports,Shawn Baker,newtoneric@example.com
+INV000323,CLO8145,Jacket,18,2025-01-14 01:44:23,84.17,C0041,France,Clothing,Sherry Wood,samueldaniels@example.com
+INV000323,HOM6004,Candle,32,2024-09-15 21:22:35,55.62,C0060,Portugal,Home & Garden,Stephanie Gilbert,richard04@example.com
+INV000323,SPO5312,Dumbbell,47,2024-10-24 04:37:56,88.75,C0018,Denmark,Sports,Deborah Mason,williamrodriguez@example.net
+INV000324,ELE7637,Mouse,50,2023-06-17 17:06:31,59.41,C0065,Japan,Electronics,Michael Snyder,dylanwatts@example.org
+INV000325,HOM6993,Cushion,26,2025-01-31 14:32:51,23.11,C0070,Germany,Home & Garden,Jeremiah Reeves,josephflores@example.net
+INV000326,SPO2483,Golf Club,-26,2024-11-20 01:12:08,37.02,C0060,Portugal,Sports,Stephanie Gilbert,richard04@example.com
+INV000326,CLO3299,Skirt,29,2023-04-25 03:55:56,16.76,C0079,Belgium,Clothing,Trevor Fisher,ruizkaitlyn@example.org
+INV000326,HOM1662,Candle,15,2023-05-06 12:05:14,76.39,C0019,Switzerland,Home & Garden,Mark Lynch,nathanielmartin@example.net
+INV000327,CLO6918,Skirt,25,2024-05-15 09:11:56,47.5,C0086,Switzerland,Clothing,Matthew Smith,gshort@example.com
+INV000327,ELE5480,Keyboard,48,2025-08-02 22:58:18,27.07,C0042,Australia,Electronics,Victoria Valdez,contrerasangela@example.net
+INV000328,SPO9465,Tennis Racket,17,2023-08-19 10:17:09,38.26,C0047,Switzerland,Sports,Sandra Aguilar,russellwilliams@example.com
+INV000329,HOM1108,Clock,33,2023-04-13 00:48:40,88.32,C0045,France,Home & Garden,Sandra Williams,kellie42@example.net
+INV000330,CLO4062,Dress,11,2023-07-16 00:45:48,36.86,C0036,Portugal,Clothing,Kim Brown,yorkcasey@example.org
+INV000331,ELE8844,Monitor,31,2024-03-03 05:20:22,21.86,C0043,Poland,Electronics,Shawn Baker,newtoneric@example.com
+INV000332,CLO3639,Boots,-9,2025-06-28 07:58:38,63.32,C0006,Spain,Clothing,Monica Herrera,smiller@example.net
+INV000333,CLO7642,Skirt,39,2025-05-01 20:12:34,96.96,C0034,Poland,Clothing,Michael Cross,smoore@example.org
+INV000333,ELE8359,Headphones,39,2024-05-20 03:47:31,99.28,C0037,Germany,Electronics,Cynthia Wilson,bethwilliams@example.org
+INV000333,CLO3979,Boots,40,2024-08-14 17:08:42,66.31,C0077,Belgium,Clothing,James Elliott,millerroy@example.com
+INV000334,SPO2127,Basketball,15,2025-07-17 00:22:57,-5.704402087154427,C0059,Belgium,Sports,Erika Terry,jamesortega@example.com
+INV000334,ELE8796,Tablet,40,2025-04-04 04:35:33,60.38,C0078,Italy,Electronics,David Murphy,wmurphy@example.com
+INV000334,HOM9835,Cushion,1,2024-04-03 02:35:05,89.8,C0012,France,Home & Garden,Jennifer Rocha,ithomas@example.org
+INV000335,ELE8028,Keyboard,15,2024-12-05 19:44:12,93.9,C0048,Australia,Electronics,Rebecca Valencia,jason31@example.com
+INV000336,SPO7971,Tennis Racket,9,2025-02-24 08:18:36,26.2,C0095,France,Sports,Jesse Parker,davidlee@example.org
+INV000337,SPO5223,Helmet,13,2025-07-29 11:56:48,0.0,C0077,Belgium,Sports,James Elliott,millerroy@example.com
+INV000338,BOO6935,Journal,7,2024-10-30 06:59:36,16.32,C0027,Spain,Books,Timothy Duncan,esanchez@example.com
+INV000338,SPO5514,Bicycle,44,2023-06-04 01:38:27,40.35,C0055,Poland,Sports,Victoria Johnson,yreed@example.com
+INV000339,BOO8925,Atlas,17,2023-06-27 17:39:56,98.86,C0023,Netherlands,Books,Lisa Brandt,jenniferross@example.net
+INV000340,ELE8317,Headphones,45,2025-05-06 11:16:01,94.98,C0018,Denmark,Electronics,Deborah Mason,williamrodriguez@example.net
+INV000340,SPO3633,Football,-25,2023-12-01 00:38:27,96.49,C0071,Switzerland,Sports,Chris Reyes,jasminebrown@example.com
+INV000341,HOM2049,Lamp,17,2024-10-30 02:10:10,22.96,C0077,Belgium,Home & Garden,James Elliott,millerroy@example.com
+INV000342,SPO5693,Golf Club,46,2024-12-02 11:11:14,96.39,C0052,Austria,Sports,Courtney Velasquez,ybailey@example.org
+INV000343,HOM4304,Vase,43,2023-12-21 22:51:28,93.15,C0064,Netherlands,Home & Garden,Angel Riggs,gibsonolivia@example.net
+INV000343,SPO3776,Dumbbell,44,2024-10-04 20:05:17,-2.4170028476535173,C0066,Austria,Sports,Colleen Brock,pwilliams@example.org
+INV000343,HOM4281,Mirror,34,2024-06-10 12:17:11,2.52,C0046,Germany,Home & Garden,Michael Hoffman,jonesnicole@example.org
+INV000344,SPO6703,Basketball,23,2024-12-05 11:39:52,96.37,C0093,Canada,Sports,Alan Phillips,tholt@example.net
+INV000345,SPO5277,Football,12,2024-09-11 09:44:19,41.31,C0052,Austria,Sports,Courtney Velasquez,ybailey@example.org
+INV000346,SPO9813,Running Shoes,37,2024-10-08 05:13:05,25.76,C0015,Canada,Sports,Rebecca Henderson,cruzcaitlin@example.com
+INV000347,BOO8548,Dictionary,38,2023-05-28 17:03:25,86.34,C0032,Austria,Books,Tammy Allison,richardolson@example.com
+INV000348,CLO7757,Hat,-23,2024-04-30 12:38:49,52.13,C0029,Italy,Clothing,Victoria Garcia,zchandler@example.org
+INV000349,HOM2245,Candle,36,2024-10-24 22:54:55,93.21,C0012,France,Home & Garden,Jennifer Rocha,ithomas@example.org
+INV000349,CLO9175,Jacket,48,2024-04-30 11:43:23,20.77,C0035,Poland,Clothing,Lauren Daniels,brian97@example.net
+INV000350,CLO6833,Boots,10,2024-01-31 22:58:49,78.11,C0026,Portugal,Clothing,Shannon Jones,joshuawashington@example.net
+INV000350,SPO9871,Football,3,2024-08-04 10:57:12,84.95,C0064,Netherlands,Sports,Angel Riggs,gibsonolivia@example.net
+INV000350,BOO3996,Dictionary,49,2023-08-26 02:47:29,91.68,C0074,Austria,Books,Sarah Ashley,vmedina@example.net
+INV000351,SPO8836,Helmet,35,2025-01-06 17:59:18,4.22,C0007,EIRE,Sports,Shannon Ray,williamsjeremy@example.com
+INV000351,ELE8537,Keyboard,-21,2023-04-15 06:54:40,69.23,C0059,Belgium,Electronics,Erika Terry,jamesortega@example.com
+INV000352,BOO5254,Encyclopedia,12,2023-05-22 17:06:23,55.31,C0042,Australia,Books,Victoria Valdez,contrerasangela@example.net
+INV000353,CLO7945,Shorts,14,2023-05-13 14:36:50,42.49,C0047,Switzerland,Clothing,Sandra Aguilar,russellwilliams@example.com
+INV000354,CLO3148,Boots,37,2023-05-25 19:52:12,68.92,C0058,Poland,Clothing,Lisa Alvarado,cortezkevin@example.com
+INV000354,HOM4212,Mirror,10,2024-11-01 21:31:25,80.2,C0072,Germany,Home & Garden,John Brown,xprice@example.net
+INV000355,HOM9470,Cushion,35,2023-05-31 00:10:58,72.34,C0054,Japan,Home & Garden,Meghan Anthony,sheila14@example.org
+INV000356,ELE2621,Speaker,45,2024-08-01 21:16:54,17.17,C0073,Italy,Electronics,Alicia Gilmore,wwoods@example.com
+INV000356,HOM5256,Candle,24,2023-07-22 03:03:20,36.67,C0013,Belgium,Home & Garden,Kimberly Burgess,zhurst@example.com
+INV000357,ELE4259,Camera,37,2025-05-14 07:00:16,58.01,C0053,Portugal,Electronics,Matthew Ross,michelle45@example.net
+INV000357,BOO8987,Atlas,50,2023-04-04 04:15:10,73.92,C0046,Germany,Books,Michael Hoffman,jonesnicole@example.org
+INV000358,CLO6527,Dress,27,2025-06-30 01:00:10,63.5,C0081,Austria,Clothing,Cynthia Wells,elliottjeffery@example.net
+INV000359,BOO6136,Biography,21,2025-05-22 09:27:32,65.65,C0021,Portugal,Books,David Bradley,millertodd@example.org
+INV000360,BOO9535,Encyclopedia,29,2025-05-22 13:04:27,41.98,C0057,Poland,Books,Renee Mcdaniel,michaeljones@example.net
+INV000360,BOO4450,Technical Manual,11,2024-05-27 02:05:34,40.31,C0085,Spain,Books,Barbara Riggs,reedross@example.com
+INV000361,ELE9584,Speaker,49,2023-07-09 21:06:45,99.61,C0007,EIRE,Electronics,Shannon Ray,williamsjeremy@example.com
+INV000362,BOO5053,Biography,48,2024-09-30 04:03:21,29.13,C0050,Switzerland,Books,Rita Keith,whitesandra@example.com
+INV000362,ELE6328,Camera,31,2024-07-03 07:05:30,47.25,C0004,Switzerland,Electronics,Abigail Shaffer,jpeterson@example.org
+INV000363,SPO8480,Yoga Mat,41,2024-10-19 00:13:43,75.14,C0018,Denmark,Sports,Deborah Mason,williamrodriguez@example.net
+INV000364,BOO8891,Magazine,35,2023-03-21 22:02:55,23.49,C0069,Italy,Books,Paul Larsen,katie87@example.net
+INV000365,BOO1001,Fiction Book,34,2024-03-22 19:36:05,81.72,C0020,Japan,Books,Linda Burns,hickmannatasha@example.com
+INV000366,HOM5908,Clock,1,2025-07-21 16:54:38,76.82,C0002,United Kingdom,Home & Garden,Angie Henderson,davisjesse@example.net
+INV000366,BOO7745,Biography,36,2024-04-30 08:56:21,44.27,C0071,Switzerland,Books,Chris Reyes,jasminebrown@example.com
+INV000367,CLO2297,Shoes,28,2024-06-30 06:19:12,62.91,C0049,France,Clothing,Stacey Russell,sarayoung@example.org
+INV000368,BOO9715,Textbook,18,2023-06-10 22:30:32,41.88,C0089,Austria,Books,Samuel Rivas,ramirezshannon@example.com
+INV000369,HOM8418,Curtains,18,2025-06-16 18:21:50,70.35,C0082,Japan,Home & Garden,Jacob Obrien,stricklandfrank@example.com
+INV000370,ELE2675,Tablet,19,2025-02-27 05:42:39,27.65,C0069,Italy,Electronics,Paul Larsen,katie87@example.net
+INV000371,ELE4558,Monitor,22,2023-11-27 11:28:39,42.6,C0020,Japan,Electronics,Linda Burns,hickmannatasha@example.com
+INV000372,ELE2314,Camera,49,2023-08-29 08:45:32,95.21,C0090,Poland,Electronics,Mary Rogers,lrosales@example.com
+INV000373,CLO5097,Jacket,25,2025-01-19 01:19:25,83.0,C0061,France,Clothing,Richard Lawson,steven73@example.net
+INV000374,HOM1549,Plant Pot,13,2023-12-15 08:27:16,46.62,C0099,Netherlands,Home & Garden,Beth Oneill,agarcia@example.net
+INV000374,HOM6293,Picture Frame,-11,2023-06-18 02:40:25,63.29,C0061,France,Home & Garden,Richard Lawson,steven73@example.net
+INV000375,HOM4255,Picture Frame,24,2024-06-27 21:11:44,88.86,C0033,EIRE,Home & Garden,Carmen Smith,ybaker@example.com
+INV000376,HOM1246,Candle,11,2025-05-14 03:04:48,79.64,C0082,Japan,Home & Garden,Jacob Obrien,stricklandfrank@example.com
+INV000377,SPO3539,Water Bottle,24,2024-07-24 23:40:09,77.31,C0006,Spain,Sports,Monica Herrera,smiller@example.net
+INV000378,ELE6824,Laptop,42,2023-06-28 11:14:05,16.24,C0044,Belgium,Electronics,Michelle Harris,william40@example.org
+INV000379,SPO8187,Bicycle,47,2024-03-08 17:46:32,20.1,C0041,France,Sports,Sherry Wood,samueldaniels@example.com
+INV000380,HOM5828,Clock,35,2025-06-10 19:59:58,70.01,C0006,Spain,Home & Garden,Monica Herrera,smiller@example.net
+INV000381,HOM3627,Picture Frame,5,2023-12-18 07:49:19,53.58,C0094,USA,Home & Garden,Kara Schmidt,jbarajas@example.com
+INV000382,ELE7210,Keyboard,-47,2024-10-28 14:28:12,19.37,C0059,Belgium,Electronics,Erika Terry,jamesortega@example.com
+INV000382,BOO9830,Technical Manual,25,2025-05-21 10:19:01,19.8,C0031,France,Books,Angela Morton,williamsyvette@example.org
+INV000383,BOO6276,Journal,8,2025-08-11 03:40:11,10.53,C0037,Germany,Books,Cynthia Wilson,bethwilliams@example.org
+INV000383,ELE2753,Headphones,-32,2025-05-14 20:45:45,19.97,C0023,Netherlands,Electronics,Lisa Brandt,jenniferross@example.net
+INV000384,SPO5193,Basketball,4,2023-02-10 18:48:49,37.27,C0063,Switzerland,Sports,Frances Cardenas,emilywalker@example.org
+INV000384,HOM8668,Lamp,41,2025-08-04 00:58:33,7.01,C0027,Spain,Home & Garden,Timothy Duncan,esanchez@example.com
+INV000385,ELE5355,Mouse,34,2024-02-20 11:10:26,5.02,C0048,Australia,Electronics,Rebecca Valencia,jason31@example.com
+INV000385,ELE4784,Smartphone,35,2023-02-14 23:27:10,39.15,C0067,Portugal,Electronics,Robert Contreras,stephanie79@example.net
+INV000386,SPO7802,Golf Club,48,2023-10-08 06:23:55,11.45,C0023,Netherlands,Sports,Lisa Brandt,jenniferross@example.net
+INV000387,HOM3733,Lamp,12,2024-02-29 12:15:30,55.45,C0086,Switzerland,Home & Garden,Matthew Smith,gshort@example.com
+INV000388,HOM6163,Candle,36,2024-04-24 23:47:02,99.15,C0077,Belgium,Home & Garden,James Elliott,millerroy@example.com
+INV000388,BOO4943,Encyclopedia,37,2024-06-11 21:34:53,55.02,C0056,Netherlands,Books,William Wilson,jonathanfletcher@example.org
+INV000388,HOM7505,Clock,1,2024-06-29 07:06:06,72.91,C0047,Switzerland,Home & Garden,Sandra Aguilar,russellwilliams@example.com
+INV000389,ELE4635,Smart Watch,-14,2023-01-10 11:38:25,85.72,C0039,EIRE,Electronics,Michael Evans,sarah10@example.com
+INV000390,SPO3534,Golf Club,7,2023-10-09 19:17:21,4.74,C0036,Portugal,Sports,Kim Brown,yorkcasey@example.org
+INV000391,CLO5198,Jacket,20,2023-08-11 12:48:09,10.1,C0075,Portugal,Clothing,Stephanie Freeman,ryan06@example.com
+INV000391,BOO3832,Dictionary,32,2025-05-29 17:58:50,82.74,C0093,Canada,Books,Alan Phillips,tholt@example.net
+INV000391,BOO7251,Fiction Book,6,2024-09-14 14:19:24,78.23,C0077,Belgium,Books,James Elliott,millerroy@example.com
+INV000391,HOM4714,Lamp,48,2023-04-19 02:19:57,-7.996767563296426,C0056,Netherlands,Home & Garden,William Wilson,jonathanfletcher@example.org
+INV000392,ELE9846,Camera,37,2023-08-09 09:28:13,15.81,C0068,Switzerland,Electronics,Jessica Meadows,vmerritt@example.com
+INV000393,HOM9269,Clock,6,2023-02-17 14:58:46,22.99,C0094,USA,Home & Garden,Kara Schmidt,jbarajas@example.com
+INV000394,HOM1807,Curtains,36,2023-05-23 12:58:27,40.52,C0011,United Kingdom,Home & Garden,Andrew Stewart,carl95@example.org
+INV000394,CLO4245,Shorts,32,2025-04-04 01:49:41,40.14,C0017,Belgium,Clothing,Patricia Peterson,ryan70@example.net
+INV000394,CLO2173,Jacket,18,2023-12-01 04:44:06,77.9,C0068,Switzerland,Clothing,Jessica Meadows,vmerritt@example.com
+INV000395,HOM6984,Mirror,23,2024-08-07 09:32:38,19.86,C0086,Switzerland,Home & Garden,Matthew Smith,gshort@example.com
+INV000395,BOO8245,Encyclopedia,-40,2024-10-14 04:29:23,15.44,C0022,United Kingdom,Books,Kim Martinez,karroyo@example.com
+INV000396,CLO2841,Jeans,48,2024-12-05 17:08:27,6.4,C0048,Australia,Clothing,Rebecca Valencia,jason31@example.com
+INV000396,ELE2823,Camera,-20,2024-06-13 13:31:24,45.56,C0037,Germany,Electronics,Cynthia Wilson,bethwilliams@example.org
+INV000397,SPO5237,Golf Club,36,2023-09-02 12:38:35,48.82,C0027,Spain,Sports,Timothy Duncan,esanchez@example.com
+INV000398,HOM9631,Curtains,3,2024-07-28 20:34:45,26.29,C0003,Portugal,Home & Garden,Cristian Santos,lrobinson@example.com
+INV000399,ELE1136,Monitor,5,2024-04-29 02:40:59,39.48,C0035,Poland,Electronics,Lauren Daniels,brian97@example.net
+INV000400,ELE7332,Smart Watch,15,2024-05-18 21:52:14,98.0,C0014,Switzerland,Electronics,Zachary Hicks,camposmichelle@example.org
+INV000400,SPO2442,Golf Club,12,2025-05-31 17:25:17,20.69,C0063,Switzerland,Sports,Frances Cardenas,emilywalker@example.org
+INV000400,CLO5995,Skirt,22,2025-07-15 04:50:00,-7.158802197629345,C0006,Spain,Clothing,Monica Herrera,smiller@example.net
+INV000401,SPO2015,Running Shoes,41,2023-05-12 23:25:40,26.51,C0031,France,Sports,Angela Morton,williamsyvette@example.org
+INV000401,BOO3485,Biography,22,2023-03-23 17:23:57,89.82,C0072,Germany,Books,John Brown,xprice@example.net
+INV000402,SPO7837,Dumbbell,16,2023-08-30 16:26:21,57.72,C0087,Portugal,Sports,Madison Poole,ryangross@example.net
+INV000403,SPO4387,Yoga Mat,42,2023-09-02 12:39:58,14.72,C0058,Poland,Sports,Lisa Alvarado,cortezkevin@example.com
+INV000403,SPO8046,Yoga Mat,50,2023-03-19 07:16:48,15.37,C0040,Austria,Sports,Kristine Garcia,williamanderson@example.com
+INV000404,SPO4016,Tennis Racket,21,2023-05-07 17:34:47,84.11,C0072,Germany,Sports,John Brown,xprice@example.net
+INV000405,HOM8258,Picture Frame,48,2024-02-27 16:43:45,93.44,C0053,Portugal,Home & Garden,Matthew Ross,michelle45@example.net
+INV000406,CLO3155,Jeans,12,2024-11-19 08:26:56,3.59,C0100,Denmark,Clothing,John Peterson,kingmichelle@example.org
+INV000407,CLO4804,Boots,15,2024-10-20 16:24:59,69.05,C0079,Belgium,Clothing,Trevor Fisher,ruizkaitlyn@example.org
+INV000408,SPO7126,Water Bottle,12,2025-01-24 10:46:50,85.36,C0065,Japan,Sports,Michael Snyder,dylanwatts@example.org
+INV000409,HOM5421,Vase,27,2025-08-01 01:26:02,23.03,C0005,Switzerland,Home & Garden,Gabrielle Davis,howardmaurice@example.com
+INV000410,HOM9027,Curtains,45,2024-11-17 16:36:06,33.16,C0023,Netherlands,Home & Garden,Lisa Brandt,jenniferross@example.net
+INV000411,SPO6126,Helmet,26,2024-10-05 09:53:20,61.54,C0006,Spain,Sports,Monica Herrera,smiller@example.net
+INV000412,ELE2791,Keyboard,29,2024-02-29 08:23:53,46.23,C0091,Switzerland,Electronics,Robert Peterson,angela83@example.org
+INV000413,HOM7347,Vase,34,2023-12-01 20:59:36,76.75,C0069,Italy,Home & Garden,Paul Larsen,katie87@example.net
+INV000414,BOO3727,Dictionary,28,2025-03-06 21:39:17,30.15,C0039,EIRE,Books,Michael Evans,sarah10@example.com
+INV000414,HOM9202,Lamp,8,2023-06-26 19:25:27,18.8,C0060,Portugal,Home & Garden,Stephanie Gilbert,richard04@example.com
+INV000415,HOM8387,Candle,2,2024-06-20 04:58:36,18.71,C0051,EIRE,Home & Garden,Sharon Cochran,erik16@example.org
+INV000416,ELE6309,Smart Watch,45,2024-10-29 20:20:31,65.21,C0059,Belgium,Electronics,Erika Terry,jamesortega@example.com
+INV000416,ELE6946,Monitor,6,2023-06-22 06:16:13,52.86,C0012,France,Electronics,Jennifer Rocha,ithomas@example.org
+INV000417,HOM7235,Rug,3,2024-03-16 00:11:37,77.06,C0021,Portugal,Home & Garden,David Bradley,millertodd@example.org
+INV000418,CLO3930,Dress,50,2025-07-10 09:38:51,71.49,C0020,Japan,Clothing,Linda Burns,hickmannatasha@example.com
+INV000418,BOO2926,Cookbook,-9,2025-01-25 22:59:02,96.08,C0058,Poland,Books,Lisa Alvarado,cortezkevin@example.com
+INV000419,HOM1094,Rug,39,2025-03-29 13:31:38,88.39,C0064,Netherlands,Home & Garden,Angel Riggs,gibsonolivia@example.net
+INV000420,HOM1107,Lamp,16,2024-04-24 02:42:30,88.33,C0053,Portugal,Home & Garden,Matthew Ross,michelle45@example.net
+INV000420,ELE3429,Tablet,-4,2023-03-12 13:16:55,65.67,C0027,Spain,Electronics,Timothy Duncan,esanchez@example.com
+INV000421,BOO2436,Magazine,4,2023-12-09 13:31:23,11.78,C0078,Italy,Books,David Murphy,wmurphy@example.com
+INV000422,SPO3906,Basketball,30,2024-09-06 00:29:14,75.18,C0085,Spain,Sports,Barbara Riggs,reedross@example.com
+INV000422,BOO2108,Journal,49,2025-07-20 00:27:14,43.31,C0042,Australia,Books,Victoria Valdez,contrerasangela@example.net
+INV000423,BOO9635,Magazine,27,2023-03-27 02:25:10,52.94,C0089,Austria,Books,Samuel Rivas,ramirezshannon@example.com
+INV000424,SPO8924,Tennis Racket,47,2023-01-12 22:35:43,69.18,C0094,USA,Sports,Kara Schmidt,jbarajas@example.com
+INV000425,BOO9608,Textbook,37,2023-11-14 13:26:47,99.51,C0078,Italy,Books,David Murphy,wmurphy@example.com
+INV000426,HOM3947,Clock,40,2024-04-13 05:43:41,24.04,C0067,Portugal,Home & Garden,Robert Contreras,stephanie79@example.net
+INV000427,ELE7793,Headphones,27,2023-11-25 03:22:24,5.5,C0060,Portugal,Electronics,Stephanie Gilbert,richard04@example.com
+INV000428,CLO5168,Shoes,5,2023-08-02 04:29:03,31.47,C0082,Japan,Clothing,Jacob Obrien,stricklandfrank@example.com
+INV000429,BOO7488,Magazine,47,2024-02-01 22:27:27,57.32,C0088,Denmark,Books,Robert Medina,umarshall@example.net
+INV000430,HOM1582,Clock,42,2024-03-25 15:22:16,14.44,C0044,Belgium,Home & Garden,Michelle Harris,william40@example.org
+INV000430,HOM1917,Mirror,34,2024-05-24 17:17:17,30.64,C0043,Poland,Home & Garden,Shawn Baker,newtoneric@example.com
+INV000431,SPO6793,Bicycle,5,2023-07-06 09:20:26,96.99,C0027,Spain,Sports,Timothy Duncan,esanchez@example.com
+INV000431,SPO7382,Yoga Mat,12,2023-01-13 00:11:30,59.92,C0081,Austria,Sports,Cynthia Wells,elliottjeffery@example.net
+INV000431,ELE7780,Smart Watch,6,2025-02-11 15:52:08,50.21,C0041,France,Electronics,Sherry Wood,samueldaniels@example.com
+INV000431,SPO3867,Running Shoes,-8,2024-10-30 23:58:57,38.05,C0028,Belgium,Sports,Brent Jordan,ujenkins@example.org
+INV000432,ELE9192,Monitor,10,2023-09-30 22:22:37,19.83,C0065,Japan,Electronics,Michael Snyder,dylanwatts@example.org
+INV000433,BOO2609,Cookbook,34,2023-07-20 16:23:31,68.0,C0100,Denmark,Books,John Peterson,kingmichelle@example.org
+INV000434,SPO1067,Tennis Racket,20,2024-08-13 15:09:39,93.3,C0092,Spain,Sports,Jason Peters,hannahbrewer@example.com
+INV000435,ELE9529,Smartphone,50,2025-04-07 08:06:32,66.24,C0060,Portugal,Electronics,Stephanie Gilbert,richard04@example.com
+INV000436,BOO4154,Biography,19,2023-12-24 11:08:57,28.39,C0027,Spain,Books,Timothy Duncan,esanchez@example.com
+INV000437,CLO2875,Shoes,1,2025-02-16 03:07:55,95.87,C0020,Japan,Clothing,Linda Burns,hickmannatasha@example.com
+INV000438,BOO3319,Textbook,46,2025-05-17 22:43:27,80.6,C0071,Switzerland,Books,Chris Reyes,jasminebrown@example.com
+INV000439,SPO1831,Water Bottle,9,2024-07-04 04:18:33,3.87,C0044,Belgium,Sports,Michelle Harris,william40@example.org
+INV000440,HOM3932,Mirror,46,2023-04-22 23:10:09,60.02,C0012,France,Home & Garden,Jennifer Rocha,ithomas@example.org
+INV000441,BOO6444,Textbook,13,2024-09-08 19:53:10,71.58,C0079,Belgium,Books,Trevor Fisher,ruizkaitlyn@example.org
+INV000441,HOM3159,Curtains,6,2023-03-07 17:08:33,81.47,C0097,EIRE,Home & Garden,Paige Carlson,wallkenneth@example.com
+INV000442,HOM4796,Clock,15,2024-11-08 15:26:43,15.23,C0088,Denmark,Home & Garden,Robert Medina,umarshall@example.net
+INV000443,BOO8426,Magazine,32,2023-01-30 02:44:06,4.0,C0024,Denmark,Books,Jessica Holmes,wrightcaleb@example.org
+INV000444,BOO3087,Magazine,33,2024-12-15 04:52:50,11.19,C0022,United Kingdom,Books,Kim Martinez,karroyo@example.com
+INV000445,ELE9728,Smart Watch,30,2023-05-01 22:55:42,40.68,C0084,Portugal,Electronics,Michael Burton,terrykevin@example.net
+INV000446,HOM6582,Lamp,14,2024-05-01 07:44:46,81.58,C0062,Netherlands,Home & Garden,Steven Flynn,donnacampbell@example.net
+INV000447,SPO3835,Dumbbell,43,2025-06-13 09:51:26,67.29,C0044,Belgium,Sports,Michelle Harris,william40@example.org
+INV000447,SPO8584,Basketball,21,2024-10-28 20:52:41,55.95,C0015,Canada,Sports,Rebecca Henderson,cruzcaitlin@example.com
+INV000447,SPO7208,Tennis Racket,21,2025-06-09 17:53:22,49.94,C0009,Denmark,Sports,Daniel Adams,lynchgeorge@example.net
+INV000447,ELE3444,Tablet,29,2024-09-20 05:58:40,53.59,C0075,Portugal,Electronics,Stephanie Freeman,ryan06@example.com
+INV000448,BOO5989,Textbook,28,2024-10-10 20:45:34,72.06,C0088,Denmark,Books,Robert Medina,umarshall@example.net
+INV000449,SPO3089,Helmet,19,2024-03-25 17:54:33,7.18,C0079,Belgium,Sports,Trevor Fisher,ruizkaitlyn@example.org
+INV000450,BOO5623,Technical Manual,2,2023-06-28 21:58:28,24.29,C0072,Germany,Books,John Brown,xprice@example.net
+INV000451,HOM8130,Mirror,35,2024-09-21 04:41:56,21.91,C0049,France,Home & Garden,Stacey Russell,sarayoung@example.org
+INV000452,HOM5726,Cushion,-43,2023-02-02 09:35:19,13.43,C0047,Switzerland,Home & Garden,Sandra Aguilar,russellwilliams@example.com
+INV000453,HOM2387,Cushion,9,2024-05-19 12:14:07,64.58,C0063,Switzerland,Home & Garden,Frances Cardenas,emilywalker@example.org
+INV000453,HOM3945,Curtains,30,2023-09-24 23:53:47,51.43,C0078,Italy,Home & Garden,David Murphy,wmurphy@example.com
+INV000454,HOM1121,Curtains,37,2024-12-15 17:39:20,50.32,C0024,Denmark,Home & Garden,Jessica Holmes,wrightcaleb@example.org
+INV000455,SPO1548,Bicycle,3,2024-07-16 02:50:46,57.25,C0070,Germany,Sports,Jeremiah Reeves,josephflores@example.net
+INV000456,ELE9624,Tablet,49,2023-05-17 21:43:12,78.11,C0089,Austria,Electronics,Samuel Rivas,ramirezshannon@example.com
+INV000456,CLO2279,Shorts,44,2024-11-09 09:47:42,63.74,C0012,France,Clothing,Jennifer Rocha,ithomas@example.org
+INV000457,SPO8681,Football,30,2023-06-14 10:51:49,51.75,C0044,Belgium,Sports,Michelle Harris,william40@example.org
+INV000458,BOO1578,Cookbook,45,2024-01-13 23:29:44,92.36,C0038,Japan,Books,Kevin Mills,james53@example.com
+INV000459,HOM3770,Curtains,37,2024-11-07 19:11:53,6.11,C0008,France,Home & Garden,Dr. Sharon James,xreid@example.org
+INV000460,HOM3077,Lamp,33,2025-07-03 18:42:46,8.61,C0037,Germany,Home & Garden,Cynthia Wilson,bethwilliams@example.org
+INV000461,BOO2827,Fiction Book,39,2024-09-14 01:51:04,18.29,C0036,Portugal,Books,Kim Brown,yorkcasey@example.org
+INV000462,BOO8944,Biography,12,2025-03-24 22:44:22,80.14,C0023,Netherlands,Books,Lisa Brandt,jenniferross@example.net
+INV000463,SPO9125,Yoga Mat,49,2023-05-03 04:10:33,99.36,C0019,Switzerland,Sports,Mark Lynch,nathanielmartin@example.net
+INV000464,CLO6653,Jacket,4,2024-09-06 19:15:06,64.58,C0082,Japan,Clothing,Jacob Obrien,stricklandfrank@example.com
+INV000465,HOM8803,Picture Frame,48,2024-04-26 23:52:26,94.88,C0052,Austria,Home & Garden,Courtney Velasquez,ybailey@example.org
+INV000466,HOM3378,Picture Frame,-34,2024-06-11 09:58:21,87.16,C0050,Switzerland,Home & Garden,Rita Keith,whitesandra@example.com
+INV000467,BOO1672,Atlas,7,2023-12-11 04:48:18,91.85,C0087,Portugal,Books,Madison Poole,ryangross@example.net
+INV000468,BOO5429,Magazine,18,2024-06-01 09:41:53,80.43,C0084,Portugal,Books,Michael Burton,terrykevin@example.net
+INV000469,CLO4193,Boots,34,2023-09-19 04:26:30,34.4,C0087,Portugal,Clothing,Madison Poole,ryangross@example.net
+INV000470,ELE1195,Smartphone,27,2023-04-29 15:37:46,10.67,C0087,Portugal,Electronics,Madison Poole,ryangross@example.net
+INV000471,BOO1557,Biography,2,2025-03-04 00:11:46,62.32,C0037,Germany,Books,Cynthia Wilson,bethwilliams@example.org
+INV000471,SPO2965,Tennis Racket,6,2023-06-27 03:13:16,85.79,C0028,Belgium,Sports,Brent Jordan,ujenkins@example.org
+INV000471,CLO4018,Jeans,17,2025-04-04 06:22:53,30.16,C0073,Italy,Clothing,Alicia Gilmore,wwoods@example.com
+INV000472,HOM5216,Candle,11,2025-03-03 04:23:27,78.29,C0036,Portugal,Home & Garden,Kim Brown,yorkcasey@example.org
+INV000473,BOO3915,Textbook,29,2023-10-29 05:15:14,7.87,C0008,France,Books,Dr. Sharon James,xreid@example.org
+INV000474,HOM3357,Lamp,35,2024-06-26 17:39:14,77.1,C0083,Spain,Home & Garden,Alexander Collins,tsanders@example.org
+INV000474,BOO1571,Technical Manual,5,2024-06-29 09:56:48,7.97,C0092,Spain,Books,Jason Peters,hannahbrewer@example.com
+INV000475,CLO1619,T-Shirt,43,2023-08-18 10:16:34,39.66,C0064,Netherlands,Clothing,Angel Riggs,gibsonolivia@example.net
+INV000476,SPO8833,Water Bottle,28,2024-01-03 00:44:28,40.99,C0001,EIRE,Sports,Allison Hill,donaldgarcia@example.net
+INV000477,ELE8898,Speaker,8,2023-06-09 16:49:50,57.16,C0029,Italy,Electronics,Victoria Garcia,zchandler@example.org
+INV000478,ELE6985,Smartphone,35,2023-08-16 11:50:10,85.48,C0052,Austria,Electronics,Courtney Velasquez,ybailey@example.org
+INV000478,CLO1644,Dress,25,2024-02-02 15:11:13,66.41,C0038,Japan,Clothing,Kevin Mills,james53@example.com
+INV000479,BOO2390,Dictionary,41,2023-11-03 10:49:33,44.36,C0089,Austria,Books,Samuel Rivas,ramirezshannon@example.com
+INV000480,CLO7369,Shorts,5,2023-09-27 12:30:44,79.48,C0076,France,Clothing,Rebecca Ramsey,ncalhoun@example.net
+INV000480,ELE6558,Laptop,4,2025-07-24 19:03:43,34.43,C0058,Poland,Electronics,Lisa Alvarado,cortezkevin@example.com
+INV000481,SPO9791,Water Bottle,10,2023-08-26 11:23:55,74.36,C0084,Portugal,Sports,Michael Burton,terrykevin@example.net
+INV000481,ELE1750,Monitor,16,2023-04-28 01:22:25,70.43,C0063,Switzerland,Electronics,Frances Cardenas,emilywalker@example.org
+INV000482,ELE3796,Monitor,38,2023-10-03 04:29:10,7.33,C0040,Austria,Electronics,Kristine Garcia,williamanderson@example.com
+INV000483,CLO4320,Jeans,28,2025-02-06 14:01:04,34.4,C0079,Belgium,Clothing,Trevor Fisher,ruizkaitlyn@example.org
+INV000484,SPO3250,Golf Club,21,2024-12-21 17:25:26,83.81,C0016,United Kingdom,Sports,Tricia Valencia,frazierdanny@example.net
+INV000485,ELE5487,Smartphone,10,2025-05-25 17:34:55,76.0,C0043,Poland,Electronics,Shawn Baker,newtoneric@example.com
+INV000486,SPO3185,Football,7,2025-06-19 04:08:10,79.31,C0032,Austria,Sports,Tammy Allison,richardolson@example.com
+INV000487,ELE1118,Laptop,12,2024-11-28 08:24:03,92.69,C0063,Switzerland,Electronics,Frances Cardenas,emilywalker@example.org
+INV000488,HOM4377,Cushion,10,2025-05-26 21:46:44,64.34,C0089,Austria,Home & Garden,Samuel Rivas,ramirezshannon@example.com
+INV000488,ELE3949,Mouse,46,2024-05-17 02:04:35,50.49,C0079,Belgium,Electronics,Trevor Fisher,ruizkaitlyn@example.org
+INV000488,HOM4860,Vase,13,2024-05-06 02:30:44,12.63,C0045,France,Home & Garden,Sandra Williams,kellie42@example.net
+INV000489,SPO4592,Golf Club,30,2023-08-23 12:05:59,77.26,C0098,Spain,Sports,Adrian Ferguson,brandon08@example.com
+INV000490,HOM3888,Clock,-11,2024-11-14 03:32:46,67.34,C0020,Japan,Home & Garden,Linda Burns,hickmannatasha@example.com
+INV000491,BOO8424,Magazine,3,2023-04-17 01:53:46,11.34,C0056,Netherlands,Books,William Wilson,jonathanfletcher@example.org
+INV000492,HOM2901,Rug,5,2024-12-29 10:38:42,89.61,C0004,Switzerland,Home & Garden,Abigail Shaffer,jpeterson@example.org
+INV000493,BOO2804,Biography,21,2024-11-17 22:42:41,23.55,C0026,Portugal,Books,Shannon Jones,joshuawashington@example.net
+INV000494,ELE8936,Monitor,4,2024-04-15 09:57:50,89.16,C0029,Italy,Electronics,Victoria Garcia,zchandler@example.org
+INV000495,BOO8499,Cookbook,47,2024-03-02 16:34:35,20.22,C0050,Switzerland,Books,Rita Keith,whitesandra@example.com
+INV000496,SPO5597,Football,9,2025-07-07 17:43:36,12.0,C0005,Switzerland,Sports,Gabrielle Davis,howardmaurice@example.com
+INV000496,BOO3568,Encyclopedia,41,2023-03-29 06:14:54,95.32,C0029,Italy,Books,Victoria Garcia,zchandler@example.org
+INV000497,ELE9548,Speaker,32,2024-06-30 17:21:25,86.36,C0030,EIRE,Electronics,Connor West,dwhite@example.org
+INV000498,HOM5060,Plant Pot,21,2025-02-27 02:53:24,43.99,C0002,United Kingdom,Home & Garden,Angie Henderson,davisjesse@example.net
+INV000498,ELE1724,Speaker,3,2023-04-26 06:01:41,99.14,C0074,Austria,Electronics,Sarah Ashley,vmedina@example.net
+INV000499,HOM8412,Lamp,32,2024-04-27 04:50:36,0.0,C0051,EIRE,Home & Garden,Sharon Cochran,erik16@example.org
+INV000500,CLO1260,Jeans,31,2024-12-18 07:00:27,67.23,C0038,Japan,Clothing,Kevin Mills,james53@example.com
+INV000501,ELE8598,Monitor,50,2024-12-03 00:34:12,14.72,C0075,Portugal,Electronics,Stephanie Freeman,ryan06@example.com
+INV000501,HOM2158,Vase,25,2023-02-28 10:05:59,89.45,C0081,Austria,Home & Garden,Cynthia Wells,elliottjeffery@example.net
+INV000502,SPO4393,Golf Club,44,2023-03-30 09:00:53,9.01,C0035,Poland,Sports,Lauren Daniels,brian97@example.net
+INV000503,BOO2818,Fiction Book,25,2024-07-26 19:32:02,37.19,C0087,Portugal,Books,Madison Poole,ryangross@example.net
+INV000504,ELE4354,Keyboard,9,2024-03-21 23:00:27,98.14,C0072,Germany,Electronics,John Brown,xprice@example.net
+INV000505,SPO4693,Dumbbell,21,2023-04-30 04:44:20,35.92,C0097,EIRE,Sports,Paige Carlson,wallkenneth@example.com
+INV000506,BOO8412,Magazine,32,2023-05-21 06:29:51,50.64,C0009,Denmark,Books,Daniel Adams,lynchgeorge@example.net
+INV000507,BOO7031,Dictionary,44,2025-07-11 20:54:03,94.59,C0069,Italy,Books,Paul Larsen,katie87@example.net
+INV000508,ELE7400,Smartphone,12,2025-02-26 16:51:30,29.55,C0059,Belgium,Electronics,Erika Terry,jamesortega@example.com
+INV000509,CLO3465,Shorts,14,2024-08-20 06:32:44,52.55,C0090,Poland,Clothing,Mary Rogers,lrosales@example.com
+INV000509,CLO6680,Shorts,27,2024-12-19 19:08:27,44.94,C0070,Germany,Clothing,Jeremiah Reeves,josephflores@example.net
+INV000510,SPO7745,Bicycle,38,2025-06-20 12:14:54,34.94,C0030,EIRE,Sports,Connor West,dwhite@example.org
+INV000511,SPO8295,Golf Club,30,2025-05-11 02:24:43,31.1,C0090,Poland,Sports,Mary Rogers,lrosales@example.com
+INV000512,CLO7093,Shorts,-19,2023-03-05 17:26:15,77.21,C0034,Poland,Clothing,Michael Cross,smoore@example.org
+INV000513,SPO9770,Yoga Mat,19,2024-11-29 15:17:15,19.05,C0022,United Kingdom,Sports,Kim Martinez,karroyo@example.com
+INV000513,CLO2915,Jacket,3,2025-06-07 00:54:21,99.38,C0020,Japan,Clothing,Linda Burns,hickmannatasha@example.com
+INV000514,SPO6192,Football,23,2023-10-20 10:04:33,15.65,C0027,Spain,Sports,Timothy Duncan,esanchez@example.com
+INV000515,ELE9182,Speaker,50,2024-05-14 11:23:11,15.39,C0016,United Kingdom,Electronics,Tricia Valencia,frazierdanny@example.net
+INV000516,SPO6427,Golf Club,42,2025-07-28 20:15:08,70.84,C0095,France,Sports,Jesse Parker,davidlee@example.org
+INV000516,CLO8243,Boots,22,2025-01-08 20:44:07,69.23,C0074,Austria,Clothing,Sarah Ashley,vmedina@example.net
+INV000517,ELE1406,Smart Watch,26,2025-02-17 20:19:40,62.13,C0071,Switzerland,Electronics,Chris Reyes,jasminebrown@example.com
+INV000518,CLO9625,Boots,15,2023-08-23 08:30:30,78.35,C0078,Italy,Clothing,David Murphy,wmurphy@example.com
+INV000519,ELE7462,Keyboard,13,2023-04-07 02:49:07,49.56,C0058,Poland,Electronics,Lisa Alvarado,cortezkevin@example.com
+INV000520,BOO3423,Journal,46,2024-11-30 20:43:08,85.53,C0086,Switzerland,Books,Matthew Smith,gshort@example.com
+INV000521,BOO2435,Dictionary,14,2023-06-10 18:49:46,73.06,C0045,France,Books,Sandra Williams,kellie42@example.net
+INV000521,CLO7786,Sweater,9,2024-06-17 12:17:17,83.72,C0037,Germany,Clothing,Cynthia Wilson,bethwilliams@example.org
+INV000522,BOO7156,Technical Manual,6,2023-05-12 00:01:04,1.66,C0068,Switzerland,Books,Jessica Meadows,vmerritt@example.com
+INV000523,SPO4264,Yoga Mat,12,2025-02-22 18:57:00,83.4,C0060,Portugal,Sports,Stephanie Gilbert,richard04@example.com
+INV000523,SPO9095,Running Shoes,36,2023-09-26 01:27:45,74.25,C0039,EIRE,Sports,Michael Evans,sarah10@example.com
+INV000524,HOM5713,Lamp,27,2023-03-02 19:19:27,18.76,C0039,EIRE,Home & Garden,Michael Evans,sarah10@example.com
+INV000525,BOO2093,Dictionary,39,2024-01-20 20:33:19,74.81,C0098,Spain,Books,Adrian Ferguson,brandon08@example.com
+INV000525,HOM7114,Lamp,-33,2024-11-11 00:48:40,73.56,C0081,Austria,Home & Garden,Cynthia Wells,elliottjeffery@example.net
+INV000526,BOO3219,Dictionary,23,2024-11-13 14:49:54,17.17,C0019,Switzerland,Books,Mark Lynch,nathanielmartin@example.net
+INV000526,ELE5778,Smart Watch,34,2025-03-25 02:41:30,64.26,C0046,Germany,Electronics,Michael Hoffman,jonesnicole@example.org
+INV000527,ELE3738,Mouse,35,2025-03-23 01:27:33,32.94,C0098,Spain,Electronics,Adrian Ferguson,brandon08@example.com
+INV000527,BOO9755,Technical Manual,38,2025-08-05 07:11:36,35.81,C0035,Poland,Books,Lauren Daniels,brian97@example.net
+INV000528,HOM6575,Mirror,11,2023-09-04 14:29:15,11.14,C0100,Denmark,Home & Garden,John Peterson,kingmichelle@example.org
+INV000529,SPO9717,Golf Club,46,2024-07-19 07:05:57,55.56,C0072,Germany,Sports,John Brown,xprice@example.net
+INV000530,ELE1284,Tablet,31,2024-08-02 04:55:45,35.47,C0010,Germany,Electronics,Joel Nelson,gabriellecameron@example.org
+INV000531,SPO3821,Bicycle,46,2024-03-15 11:02:13,31.16,C0077,Belgium,Sports,James Elliott,millerroy@example.com
+INV000532,CLO6036,Jacket,9,2024-08-24 19:56:10,21.77,C0089,Austria,Clothing,Samuel Rivas,ramirezshannon@example.com
+INV000532,ELE8934,Laptop,49,2024-09-27 00:01:39,43.69,C0015,Canada,Electronics,Rebecca Henderson,cruzcaitlin@example.com
+INV000533,ELE2948,Monitor,17,2024-06-09 15:14:29,0.0,C0076,France,Electronics,Rebecca Ramsey,ncalhoun@example.net
+INV000533,SPO4027,Dumbbell,43,2025-07-17 18:48:02,35.8,C0027,Spain,Sports,Timothy Duncan,esanchez@example.com
+INV000533,BOO3630,Magazine,33,2023-03-23 08:19:40,78.3,C0075,Portugal,Books,Stephanie Freeman,ryan06@example.com
+INV000534,ELE4555,Keyboard,46,2024-06-03 20:37:55,19.96,C0075,Portugal,Electronics,Stephanie Freeman,ryan06@example.com
+INV000535,ELE9260,Headphones,46,2023-04-13 09:22:19,48.0,C0093,Canada,Electronics,Alan Phillips,tholt@example.net
+INV000536,CLO7219,Hat,28,2024-05-27 03:45:44,22.21,C0014,Switzerland,Clothing,Zachary Hicks,camposmichelle@example.org
+INV000536,HOM9515,Lamp,9,2023-05-27 19:26:13,50.09,C0016,United Kingdom,Home & Garden,Tricia Valencia,frazierdanny@example.net
+INV000536,BOO2895,Dictionary,25,2025-05-16 18:22:34,29.08,C0011,United Kingdom,Books,Andrew Stewart,carl95@example.org
+INV000536,CLO7672,Skirt,19,2024-08-23 12:09:29,98.51,C0057,Poland,Clothing,Renee Mcdaniel,michaeljones@example.net
+INV000536,BOO1209,Cookbook,44,2024-03-17 09:46:01,49.67,C0061,France,Books,Richard Lawson,steven73@example.net
+INV000537,ELE7468,Tablet,26,2024-01-27 11:05:01,69.81,C0011,United Kingdom,Electronics,Andrew Stewart,carl95@example.org
+INV000537,ELE4261,Camera,22,2025-07-25 06:18:53,20.83,C0022,United Kingdom,Electronics,Kim Martinez,karroyo@example.com
+INV000538,HOM5472,Picture Frame,49,2023-08-22 14:19:26,79.16,C0055,Poland,Home & Garden,Victoria Johnson,yreed@example.com
+INV000539,HOM9379,Clock,18,2024-06-01 20:38:15,15.59,C0078,Italy,Home & Garden,David Murphy,wmurphy@example.com
+INV000540,CLO2631,T-Shirt,48,2023-05-07 14:36:51,6.23,C0030,EIRE,Clothing,Connor West,dwhite@example.org
+INV000540,SPO3502,Bicycle,20,2025-06-24 06:06:13,62.57,C0049,France,Sports,Stacey Russell,sarayoung@example.org
+INV000540,HOM4308,Clock,19,2023-08-08 16:49:55,66.55,C0099,Netherlands,Home & Garden,Beth Oneill,agarcia@example.net
+INV000541,SPO1517,Football,28,2024-06-27 10:15:51,88.13,C0070,Germany,Sports,Jeremiah Reeves,josephflores@example.net
+INV000541,HOM1538,Vase,12,2024-04-26 22:16:38,56.11,C0057,Poland,Home & Garden,Renee Mcdaniel,michaeljones@example.net
+INV000541,HOM6119,Cushion,46,2024-08-31 21:15:10,39.52,C0063,Switzerland,Home & Garden,Frances Cardenas,emilywalker@example.org
+INV000542,SPO8697,Basketball,31,2023-07-20 07:39:58,56.66,C0071,Switzerland,Sports,Chris Reyes,jasminebrown@example.com
+INV000543,HOM6779,Curtains,50,2025-07-13 08:44:41,97.8,C0076,France,Home & Garden,Rebecca Ramsey,ncalhoun@example.net
+INV000544,BOO1440,Encyclopedia,49,2023-05-12 14:33:13,89.24,C0047,Switzerland,Books,Sandra Aguilar,russellwilliams@example.com
+INV000545,HOM1924,Candle,43,2024-04-25 22:02:57,25.18,C0046,Germany,Home & Garden,Michael Hoffman,jonesnicole@example.org
+INV000546,ELE2875,Smart Watch,22,2025-05-18 06:07:30,17.81,C0089,Austria,Electronics,Samuel Rivas,ramirezshannon@example.com
+INV000547,SPO7900,Golf Club,18,2024-08-08 03:37:20,3.02,C0055,Poland,Sports,Victoria Johnson,yreed@example.com
+INV000548,HOM2601,Candle,32,2024-05-25 06:29:36,10.91,C0074,Austria,Home & Garden,Sarah Ashley,vmedina@example.net
+INV000549,BOO5907,Cookbook,24,2023-07-18 12:29:48,96.97,C0098,Spain,Books,Adrian Ferguson,brandon08@example.com
+INV000549,SPO5708,Dumbbell,17,2025-03-28 17:21:58,5.71,C0010,Germany,Sports,Joel Nelson,gabriellecameron@example.org
+INV000550,ELE2552,Mouse,38,2023-05-26 04:10:44,34.35,C0096,Germany,Electronics,Tiffany Vaughn,javierwashington@example.net
+INV000551,BOO5945,Technical Manual,33,2024-10-19 17:44:00,80.61,C0027,Spain,Books,Timothy Duncan,esanchez@example.com
+INV000552,BOO9443,Encyclopedia,30,2025-02-28 21:49:29,67.48,C0052,Austria,Books,Courtney Velasquez,ybailey@example.org
+INV000553,CLO9178,Boots,14,2024-07-16 01:55:45,66.42,C0067,Portugal,Clothing,Robert Contreras,stephanie79@example.net
+INV000554,SPO8106,Basketball,37,2023-01-29 07:41:01,72.93,C0082,Japan,Sports,Jacob Obrien,stricklandfrank@example.com
+INV000555,CLO8133,Shoes,27,2024-07-17 06:37:15,32.55,C0031,France,Clothing,Angela Morton,williamsyvette@example.org
+INV000556,BOO3631,Textbook,17,2024-04-24 19:21:42,69.0,C0053,Portugal,Books,Matthew Ross,michelle45@example.net
+INV000557,CLO8604,Shoes,32,2023-10-08 00:41:19,56.42,C0004,Switzerland,Clothing,Abigail Shaffer,jpeterson@example.org
+INV000558,BOO1477,Cookbook,17,2023-11-29 17:40:52,79.18,C0021,Portugal,Books,David Bradley,millertodd@example.org
+INV000559,HOM1906,Vase,6,2024-06-14 20:42:18,32.08,C0006,Spain,Home & Garden,Monica Herrera,smiller@example.net
+INV000559,ELE3302,Speaker,16,2025-01-25 09:29:38,12.08,C0047,Switzerland,Electronics,Sandra Aguilar,russellwilliams@example.com
+INV000560,SPO9133,Running Shoes,6,2023-10-26 06:28:26,24.57,C0075,Portugal,Sports,Stephanie Freeman,ryan06@example.com
+INV000561,HOM7928,Plant Pot,14,2023-12-18 22:08:12,15.28,C0075,Portugal,Home & Garden,Stephanie Freeman,ryan06@example.com
+INV000562,SPO9034,Football,35,2023-08-02 16:48:29,38.1,C0033,EIRE,Sports,Carmen Smith,ybaker@example.com
+INV000563,CLO3374,Shoes,24,2023-08-29 16:46:29,48.05,C0088,Denmark,Clothing,Robert Medina,umarshall@example.net
+INV000564,ELE4926,Laptop,17,2023-04-30 20:55:22,55.72,C0078,Italy,Electronics,David Murphy,wmurphy@example.com
+INV000565,ELE4872,Keyboard,29,2024-04-04 11:55:43,39.46,C0088,Denmark,Electronics,Robert Medina,umarshall@example.net
+INV000565,BOO4857,Technical Manual,20,2023-06-07 02:48:03,21.83,C0033,EIRE,Books,Carmen Smith,ybaker@example.com
+INV000566,HOM5489,Vase,6,2025-02-27 16:02:39,82.5,C0099,Netherlands,Home & Garden,Beth Oneill,agarcia@example.net
+INV000567,HOM3627,Lamp,45,2025-04-18 12:06:44,26.84,C0043,Poland,Home & Garden,Shawn Baker,newtoneric@example.com
+INV000567,BOO1448,Dictionary,49,2025-03-28 22:31:19,6.16,C0071,Switzerland,Books,Chris Reyes,jasminebrown@example.com
+INV000567,ELE4278,Speaker,41,2023-02-28 15:19:42,31.25,C0018,Denmark,Electronics,Deborah Mason,williamrodriguez@example.net
+INV000568,CLO7722,Boots,21,2024-06-07 03:29:08,45.7,C0092,Spain,Clothing,Jason Peters,hannahbrewer@example.com
+INV000569,BOO4254,Textbook,6,2023-07-23 13:51:44,42.04,C0076,France,Books,Rebecca Ramsey,ncalhoun@example.net
+INV000569,CLO1376,T-Shirt,36,2025-07-16 18:57:40,65.06,C0074,Austria,Clothing,Sarah Ashley,vmedina@example.net
+INV000569,BOO1815,Cookbook,26,2024-08-08 05:08:05,62.18,C0026,Portugal,Books,Shannon Jones,joshuawashington@example.net
+INV000569,SPO1231,Tennis Racket,46,2023-08-28 14:57:35,53.06,C0022,United Kingdom,Sports,Kim Martinez,karroyo@example.com
+INV000569,ELE4328,Headphones,13,2023-09-10 01:00:52,94.66,C0064,Netherlands,Electronics,Angel Riggs,gibsonolivia@example.net
+INV000569,CLO4385,Sweater,39,2023-10-08 22:25:34,22.34,C0049,France,Clothing,Stacey Russell,sarayoung@example.org
+INV000570,HOM1471,Cushion,19,2023-09-15 03:44:50,97.64,C0024,Denmark,Home & Garden,Jessica Holmes,wrightcaleb@example.org
+INV000571,HOM1169,Lamp,31,2024-11-10 21:38:50,14.19,C0075,Portugal,Home & Garden,Stephanie Freeman,ryan06@example.com
+INV000572,HOM5198,Mirror,5,2023-03-09 20:58:18,10.43,C0092,Spain,Home & Garden,Jason Peters,hannahbrewer@example.com
+INV000573,SPO1745,Basketball,1,2024-09-30 05:55:09,26.11,C0046,Germany,Sports,Michael Hoffman,jonesnicole@example.org
+INV000574,CLO1673,Skirt,38,2024-07-19 22:03:59,18.76,C0048,Australia,Clothing,Rebecca Valencia,jason31@example.com
+INV000575,CLO6198,Jeans,46,2024-01-04 23:46:03,53.51,C0060,Portugal,Clothing,Stephanie Gilbert,richard04@example.com
+INV000576,HOM6907,Picture Frame,28,2024-11-21 00:55:41,29.01,C0017,Belgium,Home & Garden,Patricia Peterson,ryan70@example.net
+INV000576,SPO8139,Bicycle,11,2025-08-06 12:38:50,32.24,C0034,Poland,Sports,Michael Cross,smoore@example.org
+INV000577,HOM4095,Vase,10,2024-03-18 14:52:59,6.4,C0085,Spain,Home & Garden,Barbara Riggs,reedross@example.com
+INV000578,HOM9108,Lamp,3,2024-11-28 09:14:51,44.71,C0060,Portugal,Home & Garden,Stephanie Gilbert,richard04@example.com
+INV000579,CLO6727,Jeans,6,2023-12-30 12:15:43,21.17,C0015,Canada,Clothing,Rebecca Henderson,cruzcaitlin@example.com
+INV000579,SPO4479,Basketball,-38,2025-04-09 13:22:43,99.8,C0035,Poland,Sports,Lauren Daniels,brian97@example.net
+INV000580,CLO2545,Shorts,22,2024-01-07 12:50:52,3.57,C0010,Germany,Clothing,Joel Nelson,gabriellecameron@example.org
+INV000581,ELE3519,Camera,2,2024-04-25 17:47:57,9.03,C0076,France,Electronics,Rebecca Ramsey,ncalhoun@example.net
+INV000582,SPO6397,Football,3,2024-12-29 14:10:08,65.96,C0035,Poland,Sports,Lauren Daniels,brian97@example.net
+INV000582,SPO4463,Yoga Mat,4,2023-10-29 09:26:50,80.35,C0094,USA,Sports,Kara Schmidt,jbarajas@example.com
+INV000582,SPO2516,Helmet,26,2024-07-25 10:06:17,26.26,C0071,Switzerland,Sports,Chris Reyes,jasminebrown@example.com
+INV000583,CLO7365,Dress,50,2025-06-05 02:46:34,40.84,C0003,Portugal,Clothing,Cristian Santos,lrobinson@example.com
+INV000584,HOM6080,Mirror,44,2024-11-15 10:39:42,60.75,C0039,EIRE,Home & Garden,Michael Evans,sarah10@example.com
+INV000585,HOM7358,Clock,31,2024-12-18 04:40:37,27.58,C0026,Portugal,Home & Garden,Shannon Jones,joshuawashington@example.net
+INV000586,SPO8112,Yoga Mat,-41,2024-03-13 17:12:41,43.18,C0048,Australia,Sports,Rebecca Valencia,jason31@example.com
+INV000587,CLO9638,Shorts,41,2024-08-16 05:14:10,65.08,C0029,Italy,Clothing,Victoria Garcia,zchandler@example.org
+INV000588,BOO3093,Cookbook,44,2025-02-20 05:43:13,90.39,C0062,Netherlands,Books,Steven Flynn,donnacampbell@example.net
+INV000589,SPO1738,Tennis Racket,33,2025-03-30 09:07:34,11.66,C0007,EIRE,Sports,Shannon Ray,williamsjeremy@example.com
+INV000590,BOO5175,Magazine,38,2024-10-12 08:48:24,9.1,C0073,Italy,Books,Alicia Gilmore,wwoods@example.com
+INV000591,CLO1741,Sweater,6,2023-09-09 17:57:59,42.21,C0023,Netherlands,Clothing,Lisa Brandt,jenniferross@example.net
+INV000591,HOM5342,Curtains,22,2023-11-07 05:16:15,96.71,C0097,EIRE,Home & Garden,Paige Carlson,wallkenneth@example.com
+INV000592,SPO2742,Running Shoes,-28,2025-07-28 07:29:14,53.9,C0096,Germany,Sports,Tiffany Vaughn,javierwashington@example.net
+INV000593,HOM8974,Mirror,20,2023-08-03 23:52:16,62.23,C0062,Netherlands,Home & Garden,Steven Flynn,donnacampbell@example.net
+INV000594,HOM2435,Picture Frame,9,2024-01-24 08:47:43,14.38,C0089,Austria,Home & Garden,Samuel Rivas,ramirezshannon@example.com
+INV000595,ELE8882,Headphones,42,2023-03-23 01:24:14,15.37,C0025,Italy,Electronics,Crystal Robinson,zimmermanbrian@example.org
+INV000595,CLO5930,Jeans,50,2025-01-16 13:43:05,46.88,C0069,Italy,Clothing,Paul Larsen,katie87@example.net
+INV000596,HOM8724,Clock,2,2024-07-30 15:47:25,86.12,C0020,Japan,Home & Garden,Linda Burns,hickmannatasha@example.com
+INV000597,ELE1129,Camera,7,2025-05-11 10:46:38,63.41,C0051,EIRE,Electronics,Sharon Cochran,erik16@example.org
+INV000597,SPO5764,Basketball,3,2023-06-09 08:49:20,49.26,C0095,France,Sports,Jesse Parker,davidlee@example.org
+INV000598,HOM1994,Plant Pot,34,2025-03-12 10:29:45,2.88,C0087,Portugal,Home & Garden,Madison Poole,ryangross@example.net
+INV000599,HOM2915,Clock,32,2023-07-13 16:19:27,62.65,C0083,Spain,Home & Garden,Alexander Collins,tsanders@example.org
+INV000600,BOO8688,Biography,23,2024-03-18 19:55:10,44.37,C0021,Portugal,Books,David Bradley,millertodd@example.org
+INV000601,HOM5806,Cushion,47,2023-05-11 07:05:28,71.43,C0078,Italy,Home & Garden,David Murphy,wmurphy@example.com
+INV000602,BOO3654,Dictionary,40,2023-09-07 00:52:37,21.51,C0095,France,Books,Jesse Parker,davidlee@example.org
+INV000603,CLO9063,Dress,7,2024-02-28 18:23:48,79.55,C0023,Netherlands,Clothing,Lisa Brandt,jenniferross@example.net
+INV000604,ELE6878,Laptop,17,2024-11-28 23:50:04,36.35,C0072,Germany,Electronics,John Brown,xprice@example.net
+INV000604,ELE8055,Camera,8,2025-03-08 11:10:38,62.14,C0005,Switzerland,Electronics,Gabrielle Davis,howardmaurice@example.com
+INV000605,BOO5382,Fiction Book,10,2023-08-17 21:33:21,85.49,C0044,Belgium,Books,Michelle Harris,william40@example.org
+INV000606,HOM2817,Clock,7,2024-11-10 14:09:33,78.38,C0007,EIRE,Home & Garden,Shannon Ray,williamsjeremy@example.com
+INV000607,ELE2727,Keyboard,11,2023-05-23 11:19:46,63.36,C0072,Germany,Electronics,John Brown,xprice@example.net
+INV000608,HOM9165,Rug,47,2023-12-11 22:10:36,87.18,C0038,Japan,Home & Garden,Kevin Mills,james53@example.com
+INV000608,CLO7811,Shorts,50,2024-12-01 19:16:13,77.13,C0016,United Kingdom,Clothing,Tricia Valencia,frazierdanny@example.net
+INV000609,CLO5358,Jeans,24,2024-06-27 01:28:34,71.8,C0065,Japan,Clothing,Michael Snyder,dylanwatts@example.org
+INV000610,SPO4738,Helmet,9,2023-02-11 10:20:12,80.38,C0097,EIRE,Sports,Paige Carlson,wallkenneth@example.com
+INV000611,BOO8251,Fiction Book,10,2024-10-06 12:28:40,77.25,C0067,Portugal,Books,Robert Contreras,stephanie79@example.net
+INV000612,BOO3692,Journal,28,2023-03-24 17:33:38,7.09,C0044,Belgium,Books,Michelle Harris,william40@example.org
+INV000613,ELE5845,Keyboard,27,2024-09-07 20:52:30,40.8,C0074,Austria,Electronics,Sarah Ashley,vmedina@example.net
+INV000614,BOO1129,Magazine,18,2025-02-18 20:10:54,90.12,C0096,Germany,Books,Tiffany Vaughn,javierwashington@example.net
+INV000615,CLO8244,Skirt,45,2024-08-03 22:17:41,35.18,C0083,Spain,Clothing,Alexander Collins,tsanders@example.org
+INV000615,ELE9805,Laptop,22,2024-01-02 06:26:37,39.61,C0039,EIRE,Electronics,Michael Evans,sarah10@example.com
+INV000616,BOO2520,Biography,33,2024-08-22 21:18:58,55.63,C0070,Germany,Books,Jeremiah Reeves,josephflores@example.net
+INV000617,SPO5238,Basketball,16,2023-05-07 18:28:16,83.39,C0004,Switzerland,Sports,Abigail Shaffer,jpeterson@example.org
+INV000618,ELE5255,Camera,41,2024-08-05 09:45:27,51.24,C0094,USA,Electronics,Kara Schmidt,jbarajas@example.com
+INV000618,BOO1085,Encyclopedia,30,2023-12-15 19:24:42,34.56,C0058,Poland,Books,Lisa Alvarado,cortezkevin@example.com
+INV000619,SPO4831,Basketball,23,2023-02-13 18:54:28,30.62,C0092,Spain,Sports,Jason Peters,hannahbrewer@example.com
+INV000620,HOM5057,Rug,7,2024-05-10 01:25:59,33.46,C0018,Denmark,Home & Garden,Deborah Mason,williamrodriguez@example.net
+INV000621,CLO7751,Sweater,6,2023-06-03 22:05:11,10.13,C0013,Belgium,Clothing,Kimberly Burgess,zhurst@example.com
+INV000622,BOO7598,Atlas,38,2024-06-04 20:31:49,56.34,C0010,Germany,Books,Joel Nelson,gabriellecameron@example.org
+INV000623,HOM9020,Clock,47,2023-08-15 21:06:46,97.35,C0082,Japan,Home & Garden,Jacob Obrien,stricklandfrank@example.com
+INV000624,HOM9408,Cushion,34,2023-08-02 18:05:04,12.69,C0092,Spain,Home & Garden,Jason Peters,hannahbrewer@example.com
+INV000624,BOO7694,Technical Manual,8,2023-03-01 12:02:47,12.97,C0072,Germany,Books,John Brown,xprice@example.net
+INV000625,BOO5968,Magazine,19,2024-03-21 15:38:20,49.11,C0048,Australia,Books,Rebecca Valencia,jason31@example.com
+INV000626,BOO4532,Textbook,12,2025-01-03 22:23:47,82.09,C0007,EIRE,Books,Shannon Ray,williamsjeremy@example.com
+INV000627,HOM6074,Clock,37,2023-08-04 14:33:59,45.79,C0006,Spain,Home & Garden,Monica Herrera,smiller@example.net
+INV000627,CLO9270,Dress,41,2024-12-29 17:41:35,46.63,C0078,Italy,Clothing,David Murphy,wmurphy@example.com
+INV000627,ELE7711,Mouse,25,2024-11-27 21:04:30,24.05,C0042,Australia,Electronics,Victoria Valdez,contrerasangela@example.net
+INV000627,BOO3713,Technical Manual,46,2023-01-09 03:46:43,3.46,C0057,Poland,Books,Renee Mcdaniel,michaeljones@example.net
+INV000628,ELE2395,Keyboard,13,2023-05-04 01:45:03,95.56,C0083,Spain,Electronics,Alexander Collins,tsanders@example.org
+INV000628,CLO9235,Shorts,2,2023-01-30 12:30:58,12.91,C0067,Portugal,Clothing,Robert Contreras,stephanie79@example.net
+INV000629,CLO8278,Boots,6,2024-02-02 13:32:08,80.89,C0027,Spain,Clothing,Timothy Duncan,esanchez@example.com
+INV000630,BOO3957,Journal,27,2023-12-02 00:11:29,3.38,C0003,Portugal,Books,Cristian Santos,lrobinson@example.com
+INV000631,SPO5675,Yoga Mat,10,2023-08-21 06:29:43,19.08,C0013,Belgium,Sports,Kimberly Burgess,zhurst@example.com
+INV000631,CLO6329,T-Shirt,12,2025-05-02 12:54:18,3.69,C0087,Portugal,Clothing,Madison Poole,ryangross@example.net
+INV000632,BOO7152,Textbook,8,2025-08-03 20:41:43,6.14,C0053,Portugal,Books,Matthew Ross,michelle45@example.net
+INV000633,SPO2885,Helmet,18,2025-03-30 20:44:52,7.0,C0066,Austria,Sports,Colleen Brock,pwilliams@example.org
+INV000634,CLO5409,T-Shirt,36,2024-10-19 12:04:52,96.38,C0053,Portugal,Clothing,Matthew Ross,michelle45@example.net
+INV000635,BOO7664,Encyclopedia,29,2023-06-22 17:20:47,9.31,C0017,Belgium,Books,Patricia Peterson,ryan70@example.net
+INV000635,SPO5016,Yoga Mat,35,2024-03-23 13:12:19,95.31,C0048,Australia,Sports,Rebecca Valencia,jason31@example.com
+INV000636,SPO3742,Running Shoes,1,2024-01-05 03:52:11,6.96,C0060,Portugal,Sports,Stephanie Gilbert,richard04@example.com
+INV000637,HOM4485,Candle,38,2024-04-12 19:43:49,84.23,C0088,Denmark,Home & Garden,Robert Medina,umarshall@example.net
+INV000638,BOO7476,Technical Manual,45,2023-07-09 06:50:08,13.17,C0009,Denmark,Books,Daniel Adams,lynchgeorge@example.net
+INV000639,CLO9270,Boots,21,2023-03-16 04:13:42,88.51,C0056,Netherlands,Clothing,William Wilson,jonathanfletcher@example.org
+INV000639,HOM5029,Picture Frame,43,2024-01-06 09:40:08,98.32,C0091,Switzerland,Home & Garden,Robert Peterson,angela83@example.org
+INV000640,CLO8807,T-Shirt,1,2024-10-14 04:13:50,90.24,C0003,Portugal,Clothing,Cristian Santos,lrobinson@example.com
+INV000640,HOM9816,Mirror,6,2024-12-11 02:25:51,78.94,C0091,Switzerland,Home & Garden,Robert Peterson,angela83@example.org
+INV000641,HOM6783,Lamp,25,2023-04-08 13:37:13,82.92,C0086,Switzerland,Home & Garden,Matthew Smith,gshort@example.com
+INV000641,ELE8580,Smartphone,24,2023-06-22 05:04:54,93.69,C0090,Poland,Electronics,Mary Rogers,lrosales@example.com
+INV000642,BOO2474,Biography,40,2025-02-15 10:59:02,62.9,C0036,Portugal,Books,Kim Brown,yorkcasey@example.org
+INV000642,ELE9074,Smart Watch,46,2025-07-16 00:02:38,70.99,C0047,Switzerland,Electronics,Sandra Aguilar,russellwilliams@example.com
+INV000642,ELE9197,Smart Watch,32,2025-04-12 17:32:01,17.88,C0051,EIRE,Electronics,Sharon Cochran,erik16@example.org
+INV000643,SPO2070,Yoga Mat,38,2023-01-26 12:45:15,13.7,C0078,Italy,Sports,David Murphy,wmurphy@example.com
+INV000644,SPO4143,Running Shoes,44,2025-03-11 14:35:59,3.29,C0030,EIRE,Sports,Connor West,dwhite@example.org
+INV000645,SPO1032,Water Bottle,28,2025-06-12 07:19:23,64.46,C0088,Denmark,Sports,Robert Medina,umarshall@example.net
+INV000645,HOM2994,Picture Frame,44,2024-01-11 20:06:26,52.31,C0056,Netherlands,Home & Garden,William Wilson,jonathanfletcher@example.org
+INV000646,CLO5553,T-Shirt,27,2023-08-12 00:55:57,53.71,C0093,Canada,Clothing,Alan Phillips,tholt@example.net
+INV000647,ELE7943,Headphones,5,2024-03-28 11:24:24,91.78,C0074,Austria,Electronics,Sarah Ashley,vmedina@example.net
+INV000648,ELE8863,Laptop,28,2024-10-28 19:11:09,81.0,C0081,Austria,Electronics,Cynthia Wells,elliottjeffery@example.net
+INV000649,CLO8759,Jeans,16,2023-01-03 10:19:21,95.92,C0033,EIRE,Clothing,Carmen Smith,ybaker@example.com
+INV000650,ELE8184,Mouse,49,2024-07-02 01:56:07,10.47,C0031,France,Electronics,Angela Morton,williamsyvette@example.org
+INV000650,HOM2065,Candle,9,2024-01-09 16:53:05,7.14,C0005,Switzerland,Home & Garden,Gabrielle Davis,howardmaurice@example.com
+INV000651,ELE1914,Smartphone,36,2025-06-05 11:53:07,6.17,C0056,Netherlands,Electronics,William Wilson,jonathanfletcher@example.org
+INV000652,CLO1173,Boots,30,2024-10-09 02:45:56,39.01,C0053,Portugal,Clothing,Matthew Ross,michelle45@example.net
+INV000653,ELE9474,Monitor,22,2023-10-18 23:34:07,0.0,C0044,Belgium,Electronics,Michelle Harris,william40@example.org
+INV000653,SPO6822,Running Shoes,27,2023-05-13 23:55:10,48.66,C0017,Belgium,Sports,Patricia Peterson,ryan70@example.net
+INV000654,ELE6106,Tablet,38,2025-03-24 04:55:07,44.15,C0006,Spain,Electronics,Monica Herrera,smiller@example.net
+INV000655,CLO8692,Dress,20,2024-07-14 04:16:57,60.73,C0070,Germany,Clothing,Jeremiah Reeves,josephflores@example.net
+INV000656,CLO4889,T-Shirt,33,2023-04-16 03:16:04,82.1,C0085,Spain,Clothing,Barbara Riggs,reedross@example.com
+INV000657,CLO6595,Jeans,13,2025-03-28 04:55:03,67.12,C0026,Portugal,Clothing,Shannon Jones,joshuawashington@example.net
+INV000658,SPO6499,Basketball,40,2025-04-25 04:50:44,30.66,C0043,Poland,Sports,Shawn Baker,newtoneric@example.com
+INV000658,HOM1060,Plant Pot,41,2025-02-27 02:32:50,23.08,C0006,Spain,Home & Garden,Monica Herrera,smiller@example.net
+INV000659,BOO4363,Journal,26,2025-02-27 13:32:30,19.24,C0095,France,Books,Jesse Parker,davidlee@example.org
+INV000660,SPO3333,Tennis Racket,19,2025-05-10 20:16:56,44.6,C0004,Switzerland,Sports,Abigail Shaffer,jpeterson@example.org
+INV000661,CLO5654,Jacket,12,2023-02-01 14:07:04,22.68,C0004,Switzerland,Clothing,Abigail Shaffer,jpeterson@example.org
+INV000661,CLO1352,Jacket,12,2024-08-29 13:10:12,84.45,C0032,Austria,Clothing,Tammy Allison,richardolson@example.com
+INV000662,ELE4444,Camera,20,2024-12-31 07:54:22,46.16,C0049,France,Electronics,Stacey Russell,sarayoung@example.org
+INV000663,SPO2071,Helmet,8,2023-03-09 15:04:51,15.3,C0068,Switzerland,Sports,Jessica Meadows,vmerritt@example.com
+INV000664,BOO8037,Magazine,-41,2024-08-23 23:58:51,25.21,C0049,France,Books,Stacey Russell,sarayoung@example.org
+INV000665,BOO6368,Cookbook,16,2024-08-02 21:43:18,6.27,C0069,Italy,Books,Paul Larsen,katie87@example.net
+INV000665,HOM2333,Plant Pot,31,2024-01-30 00:46:01,79.31,C0075,Portugal,Home & Garden,Stephanie Freeman,ryan06@example.com
+INV000666,SPO9168,Bicycle,34,2023-01-26 05:33:15,46.96,C0083,Spain,Sports,Alexander Collins,tsanders@example.org
+INV000667,HOM5396,Clock,38,2024-07-08 17:25:28,40.69,C0092,Spain,Home & Garden,Jason Peters,hannahbrewer@example.com
+INV000668,CLO4840,Shorts,26,2023-04-15 22:48:10,22.64,C0029,Italy,Clothing,Victoria Garcia,zchandler@example.org
+INV000669,BOO2388,Atlas,9,2024-06-19 15:10:07,75.41,C0048,Australia,Books,Rebecca Valencia,jason31@example.com
+INV000670,HOM6511,Rug,28,2024-01-10 13:49:33,45.66,C0006,Spain,Home & Garden,Monica Herrera,smiller@example.net
+INV000671,HOM3942,Vase,29,2023-06-11 00:52:08,24.15,C0035,Poland,Home & Garden,Lauren Daniels,brian97@example.net
+INV000672,SPO2280,Golf Club,18,2025-06-22 22:55:41,92.73,C0065,Japan,Sports,Michael Snyder,dylanwatts@example.org
+INV000673,BOO6394,Biography,17,2024-05-31 13:11:32,30.97,C0026,Portugal,Books,Shannon Jones,joshuawashington@example.net
+INV000674,SPO9898,Yoga Mat,17,2023-07-27 05:52:12,1.84,C0091,Switzerland,Sports,Robert Peterson,angela83@example.org
+INV000674,HOM1194,Curtains,31,2023-03-10 20:57:15,65.76,C0052,Austria,Home & Garden,Courtney Velasquez,ybailey@example.org
+INV000674,CLO8773,Jacket,15,2024-07-01 06:39:37,52.07,C0030,EIRE,Clothing,Connor West,dwhite@example.org
+INV000674,BOO6129,Technical Manual,13,2025-04-28 04:52:04,43.45,C0060,Portugal,Books,Stephanie Gilbert,richard04@example.com
+INV000675,ELE3276,Camera,37,2024-06-09 21:57:23,87.5,C0072,Germany,Electronics,John Brown,xprice@example.net
+INV000676,BOO4694,Magazine,27,2023-09-29 23:47:44,43.15,C0085,Spain,Books,Barbara Riggs,reedross@example.com
+INV000677,BOO1380,Encyclopedia,37,2024-12-22 18:23:49,78.75,C0039,EIRE,Books,Michael Evans,sarah10@example.com
+INV000677,SPO7404,Basketball,25,2025-01-13 08:56:06,21.22,C0043,Poland,Sports,Shawn Baker,newtoneric@example.com
+INV000678,BOO8397,Encyclopedia,41,2023-10-11 03:48:58,89.58,C0014,Switzerland,Books,Zachary Hicks,camposmichelle@example.org
+INV000679,SPO1439,Water Bottle,12,2023-07-29 11:40:07,20.7,C0005,Switzerland,Sports,Gabrielle Davis,howardmaurice@example.com
+INV000680,SPO8449,Tennis Racket,-4,2023-04-09 00:33:30,37.5,C0038,Japan,Sports,Kevin Mills,james53@example.com
+INV000680,CLO3115,Jeans,35,2024-12-11 23:31:53,42.42,C0051,EIRE,Clothing,Sharon Cochran,erik16@example.org
+INV000680,CLO6075,Jacket,28,2023-02-27 10:51:20,81.97,C0027,Spain,Clothing,Timothy Duncan,esanchez@example.com
+INV000681,SPO9232,Dumbbell,46,2024-03-31 20:19:55,0.0,C0040,Austria,Sports,Kristine Garcia,williamanderson@example.com
+INV000681,CLO6388,Skirt,37,2023-11-10 03:51:25,88.04,C0078,Italy,Clothing,David Murphy,wmurphy@example.com
+INV000681,HOM5873,Candle,26,2023-03-10 01:12:58,61.69,C0037,Germany,Home & Garden,Cynthia Wilson,bethwilliams@example.org
+INV000682,HOM7302,Clock,43,2023-11-06 20:46:27,19.16,C0080,USA,Home & Garden,Mrs. Marie Harrington DDS,herringjames@example.org
+INV000682,CLO9810,Shoes,19,2023-03-07 02:22:00,67.0,C0031,France,Clothing,Angela Morton,williamsyvette@example.org
+INV000682,HOM2986,Rug,24,2024-05-05 06:15:53,8.58,C0064,Netherlands,Home & Garden,Angel Riggs,gibsonolivia@example.net
+INV000683,CLO4397,Shoes,-33,2024-04-26 16:28:00,5.42,C0058,Poland,Clothing,Lisa Alvarado,cortezkevin@example.com
+INV000684,HOM7542,Candle,-13,2025-03-11 14:53:34,40.27,C0060,Portugal,Home & Garden,Stephanie Gilbert,richard04@example.com
+INV000684,HOM8558,Clock,5,2024-09-10 14:52:07,9.17,C0042,Australia,Home & Garden,Victoria Valdez,contrerasangela@example.net
+INV000685,BOO3794,Cookbook,2,2025-04-23 13:39:06,61.09,C0061,France,Books,Richard Lawson,steven73@example.net
+INV000685,ELE5476,Laptop,10,2025-01-05 09:37:21,44.63,C0022,United Kingdom,Electronics,Kim Martinez,karroyo@example.com
+INV000685,CLO1782,Shorts,41,2024-01-29 12:13:18,81.34,C0069,Italy,Clothing,Paul Larsen,katie87@example.net
+INV000685,BOO1858,Dictionary,39,2023-02-26 21:19:16,1.46,C0050,Switzerland,Books,Rita Keith,whitesandra@example.com
+INV000685,CLO2497,Jacket,2,2023-10-24 20:51:08,42.75,C0048,Australia,Clothing,Rebecca Valencia,jason31@example.com
+INV000686,ELE2582,Headphones,43,2024-03-20 10:59:14,17.62,C0086,Switzerland,Electronics,Matthew Smith,gshort@example.com
+INV000687,BOO4105,Atlas,40,2024-07-08 12:57:42,21.5,C0042,Australia,Books,Victoria Valdez,contrerasangela@example.net
+INV000688,ELE6298,Camera,12,2023-03-16 06:15:48,0.0,C0028,Belgium,Electronics,Brent Jordan,ujenkins@example.org
+INV000689,SPO1719,Bicycle,5,2024-05-30 15:02:57,88.66,C0036,Portugal,Sports,Kim Brown,yorkcasey@example.org
+INV000690,SPO3809,Basketball,17,2024-02-29 10:15:12,95.94,C0014,Switzerland,Sports,Zachary Hicks,camposmichelle@example.org
+INV000691,CLO3872,Hat,41,2023-07-13 08:45:52,76.41,C0087,Portugal,Clothing,Madison Poole,ryangross@example.net
+INV000692,BOO8354,Fiction Book,25,2024-07-25 16:44:57,51.59,C0009,Denmark,Books,Daniel Adams,lynchgeorge@example.net
+INV000692,CLO3032,T-Shirt,20,2024-11-09 18:43:41,24.4,C0002,United Kingdom,Clothing,Angie Henderson,davisjesse@example.net
+INV000693,BOO5859,Dictionary,13,2024-09-13 09:53:33,16.02,C0018,Denmark,Books,Deborah Mason,williamrodriguez@example.net
+INV000693,HOM3199,Candle,18,2024-11-14 02:34:11,32.44,C0077,Belgium,Home & Garden,James Elliott,millerroy@example.com
+INV000693,BOO4752,Fiction Book,47,2024-08-23 15:09:42,33.8,C0054,Japan,Books,Meghan Anthony,sheila14@example.org
+INV000693,CLO7250,Jacket,34,2024-06-10 16:12:05,0.0,C0086,Switzerland,Clothing,Matthew Smith,gshort@example.com
+INV000693,CLO3057,Jacket,6,2023-10-18 05:03:02,18.19,C0007,EIRE,Clothing,Shannon Ray,williamsjeremy@example.com
+INV000694,ELE8652,Speaker,20,2025-02-09 19:47:49,17.25,C0065,Japan,Electronics,Michael Snyder,dylanwatts@example.org
+INV000695,BOO8344,Encyclopedia,41,2025-02-11 21:00:59,20.94,C0039,EIRE,Books,Michael Evans,sarah10@example.com
+INV000695,HOM3748,Mirror,31,2024-07-24 15:41:09,44.7,C0047,Switzerland,Home & Garden,Sandra Aguilar,russellwilliams@example.com
+INV000695,ELE8002,Speaker,6,2025-03-17 16:00:25,76.13,C0062,Netherlands,Electronics,Steven Flynn,donnacampbell@example.net
+INV000696,CLO7233,Shoes,30,2024-02-19 08:04:05,31.28,C0094,USA,Clothing,Kara Schmidt,jbarajas@example.com
+INV000697,CLO4206,Shorts,-10,2023-05-09 07:58:48,91.7,C0043,Poland,Clothing,Shawn Baker,newtoneric@example.com
+INV000697,HOM7812,Mirror,26,2024-10-21 10:29:40,97.08,C0048,Australia,Home & Garden,Rebecca Valencia,jason31@example.com

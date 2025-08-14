@@ -1,0 +1,111 @@
+"""
+DSA 2040 Practical Exam - Data Preprocessing and Exploration
+Task 1: Data preprocessing and exploration on Iris dataset
+Author: IRANZI513
+Date: August 14, 2025
+
+This script demonstrates comprehensive data preprocessing and exploration
+techniques using the Iris dataset from scikit-learn.
+"""
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.datasets import load_iris
+from sklearn.preprocessing import MinMaxScaler, LabelEncoder, StandardScaler
+from sklearn.model_selection import train_test_split
+import warnings
+warnings.filterwarnings('ignore')
+
+# Set plotting style
+plt.style.use('seaborn-v0_8')
+sns.set_palette("husl")
+
+class IrisDataPreprocessing:
+    """
+    Comprehensive data preprocessing and exploration for Iris dataset
+    """
+    
+    def __init__(self, use_synthetic_data=False):
+        """
+        Initialize the preprocessing class
+        
+        Args:
+            use_synthetic_data (bool): If True, generates synthetic data similar to Iris
+        """
+        self.use_synthetic_data = use_synthetic_data
+        self.scaler = MinMaxScaler()
+        self.label_encoder = LabelEncoder()
+        
+    def generate_synthetic_iris_data(self, n_samples=150):
+        """
+        Generate synthetic data similar to Iris dataset
+        
+        Args:
+            n_samples (int): Number of samples to generate
+            
+        Returns:
+            tuple: (features DataFrame, target Series)
+        """
+        print(f"Generating {n_samples} synthetic Iris-like samples...")
+        
+        np.random.seed(42)  # For reproducibility
+        
+        # Define approximate parameters for each species based on real Iris data
+        species_params = {
+            'setosa': {
+                'sepal_length': (4.8, 5.2, 0.3),    # mean, max, std
+                'sepal_width': (3.2, 3.6, 0.3),
+                'petal_length': (1.3, 1.7, 0.2),
+                'petal_width': (0.1, 0.3, 0.1)
+            },
+            'versicolor': {
+                'sepal_length': (5.5, 6.5, 0.4),
+                'sepal_width': (2.2, 3.2, 0.3),
+                'petal_length': (3.5, 4.8, 0.4),
+                'petal_width': (1.0, 1.6, 0.2)
+            },
+            'virginica': {
+                'sepal_length': (6.0, 7.5, 0.5),
+                'sepal_width': (2.5, 3.5, 0.3),
+                'petal_length': (4.8, 6.5, 0.5),
+                'petal_width': (1.5, 2.5, 0.3)
+            }
+        }
+        
+        # Generate data for each species
+        features = []
+        targets = []
+        
+        samples_per_species = n_samples // 3
+        
+        for i, (species, params) in enumerate(species_params.items()):
+            for _ in range(samples_per_species):
+                # Generate features with some correlation structure
+                sepal_length = np.random.normal(params['sepal_length'][0], params['sepal_length'][2])
+                sepal_width = np.random.normal(params['sepal_width'][0], params['sepal_width'][2])
+                petal_length = np.random.normal(params['petal_length'][0], params['petal_length'][2])
+                petal_width = np.random.normal(params['petal_width'][0], params['petal_width'][2])
+                
+                # Add some correlation between petal length and width
+                petal_width += petal_length * 0.1 + np.random.normal(0, 0.05)
+                
+                # Ensure positive values
+                features.append([
+                    max(0.1, sepal_length),
+                    max(0.1, sepal_width),
+                    max(0.1, petal_length),
+                    max(0.1, petal_width)
+                ])
+                targets.append(species)
+        
+        # Create DataFrames
+        feature_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+        features_df = pd.DataFrame(features, columns=feature_names)
+        targets_series = pd.Series(targets, name='species')
+        
+        print(f"Generated synthetic data with {len(features_df)} samples")
+        print(f"Species distribution: {targets_series.value_counts().to_dict()}")
+        
+        return features_df, targets_series\n    \n    def load_dataset(self):\n        \"\"\"\n        Load the Iris dataset or generate synthetic data\n        \n        Returns:\n            tuple: (features DataFrame, target Series, feature names, target names)\n        \"\"\"\n        print(\"Loading dataset...\")\n        \n        if self.use_synthetic_data:\n            # Generate synthetic data\n            features_df, target_series = self.generate_synthetic_iris_data()\n            feature_names = features_df.columns.tolist()\n            target_names = target_series.unique().tolist()\n            \n            # Save synthetic data\n            synthetic_data = features_df.copy()\n            synthetic_data['species'] = target_series\n            synthetic_data.to_csv('c:/DSA 2040_Practical_Exam_IRANZI513/Data/synthetic_iris_data.csv', index=False)\n            print(\"Synthetic data saved to: Data/synthetic_iris_data.csv\")\n            \n        else:\n            # Load real Iris dataset\n            iris = load_iris()\n            features_df = pd.DataFrame(iris.data, columns=iris.feature_names)\n            target_series = pd.Series(iris.target, name='species')\n            \n            # Convert numerical targets to species names\n            target_names = iris.target_names\n            target_series = target_series.map(dict(enumerate(target_names)))\n            \n            feature_names = iris.feature_names\n            \n            # Save real data for reference\n            real_data = features_df.copy()\n            real_data['species'] = target_series\n            real_data.to_csv('c:/DSA 2040_Practical_Exam_IRANZI513/Data/iris_data.csv', index=False)\n            print(\"Real Iris data saved to: Data/iris_data.csv\")\n        \n        print(f\"Dataset loaded: {features_df.shape[0]} samples, {features_df.shape[1]} features\")\n        print(f\"Features: {feature_names}\")\n        print(f\"Target classes: {target_names}\")\n        \n        return features_df, target_series, feature_names, target_names\n    \n    def check_missing_values(self, df):\n        \"\"\"\n        Check and report missing values in the dataset\n        \n        Args:\n            df (pd.DataFrame): Dataset to check\n            \n        Returns:\n            pd.DataFrame: Missing value report\n        \"\"\"\n        print(\"\\n\" + \"=\"*60)\n        print(\"MISSING VALUES ANALYSIS\")\n        print(\"=\"*60)\n        \n        missing_info = pd.DataFrame({\n            'Column': df.columns,\n            'Missing_Count': [df[col].isnull().sum() for col in df.columns],\n            'Missing_Percentage': [df[col].isnull().sum() / len(df) * 100 for col in df.columns],\n            'Data_Type': [df[col].dtype for col in df.columns]\n        })\n        \n        print(\"Missing Values Report:\")\n        print(missing_info)\n        \n        total_missing = missing_info['Missing_Count'].sum()\n        \n        if total_missing == 0:\n            print(\"\\n✓ No missing values found in the dataset!\")\n        else:\n            print(f\"\\n⚠ Total missing values: {total_missing}\")\n            print(\"Columns with missing values:\")\n            problematic_cols = missing_info[missing_info['Missing_Count'] > 0]\n            print(problematic_cols)\n        \n        return missing_info\n    \n    def normalize_features(self, features_df):\n        \"\"\"\n        Normalize features using Min-Max scaling\n        \n        Args:\n            features_df (pd.DataFrame): Features to normalize\n            \n        Returns:\n            pd.DataFrame: Normalized features\n        \"\"\"\n        print(\"\\n\" + \"=\"*60)\n        print(\"FEATURE NORMALIZATION (MIN-MAX SCALING)\")\n        print(\"=\"*60)\n        \n        print(\"Original feature ranges:\")\n        for col in features_df.columns:\n            min_val = features_df[col].min()\n            max_val = features_df[col].max()\n            print(f\"{col}: [{min_val:.3f}, {max_val:.3f}]\")\n        \n        # Apply Min-Max scaling\n        normalized_features = pd.DataFrame(\n            self.scaler.fit_transform(features_df),\n            columns=features_df.columns,\n            index=features_df.index\n        )\n        \n        print(\"\\nNormalized feature ranges:\")\n        for col in normalized_features.columns:\n            min_val = normalized_features[col].min()\n            max_val = normalized_features[col].max()\n            print(f\"{col}: [{min_val:.3f}, {max_val:.3f}]\")\n        \n        return normalized_features\n    \n    def encode_target_labels(self, target_series):\n        \"\"\"\n        Encode target labels for machine learning models\n        \n        Args:\n            target_series (pd.Series): Target labels\n            \n        Returns:\n            tuple: (encoded labels, label mapping)\n        \"\"\"\n        print(\"\\n\" + \"=\"*60)\n        print(\"TARGET LABEL ENCODING\")\n        print(\"=\"*60)\n        \n        print(\"Original target distribution:\")\n        print(target_series.value_counts())\n        \n        # Encode labels\n        encoded_labels = self.label_encoder.fit_transform(target_series)\n        encoded_series = pd.Series(encoded_labels, index=target_series.index, name='species_encoded')\n        \n        # Create mapping\n        label_mapping = dict(zip(self.label_encoder.classes_, self.label_encoder.transform(self.label_encoder.classes_)))\n        \n        print(\"\\nLabel encoding mapping:\")\n        for original, encoded in label_mapping.items():\n            print(f\"{original} -> {encoded}\")\n        \n        print(\"\\nEncoded target distribution:\")\n        print(encoded_series.value_counts().sort_index())\n        \n        return encoded_series, label_mapping\n    \n    def compute_summary_statistics(self, features_df, target_series):\n        \"\"\"\n        Compute comprehensive summary statistics\n        \n        Args:\n            features_df (pd.DataFrame): Features\n            target_series (pd.Series): Target labels\n        \"\"\"\n        print(\"\\n\" + \"=\"*60)\n        print(\"SUMMARY STATISTICS\")\n        print(\"=\"*60)\n        \n        # Overall statistics\n        print(\"Overall Feature Statistics:\")\n        summary_stats = features_df.describe()\n        print(summary_stats)\n        \n        # Statistics by species\n        print(\"\\nStatistics by Species:\")\n        combined_df = features_df.copy()\n        combined_df['species'] = target_series\n        \n        for species in target_series.unique():\n            print(f\"\\n{species.upper()} Statistics:\")\n            species_data = combined_df[combined_df['species'] == species][features_df.columns]\n            print(species_data.describe())\n    \n    def create_visualizations(self, features_df, target_series):\n        \"\"\"\n        Create comprehensive visualizations for data exploration\n        \n        Args:\n            features_df (pd.DataFrame): Features\n            target_series (pd.Series): Target labels\n        \"\"\"\n        print(\"\\n\" + \"=\"*60)\n        print(\"CREATING VISUALIZATIONS\")\n        print(\"=\"*60)\n        \n        # Create figure with multiple subplots\n        fig = plt.figure(figsize=(20, 16))\n        \n        # 1. Pairplot\n        plt.subplot(3, 3, 1)\n        combined_df = features_df.copy()\n        combined_df['species'] = target_series\n        \n        # Create a simplified pairplot using scatter plots\n        feature_cols = features_df.columns[:2]  # First two features for visibility\n        for i, species in enumerate(target_series.unique()):\n            species_data = combined_df[combined_df['species'] == species]\n            plt.scatter(species_data[feature_cols[0]], species_data[feature_cols[1]], \n                       label=species, alpha=0.7, s=50)\n        \n        plt.xlabel(feature_cols[0].replace('_', ' ').title())\n        plt.ylabel(feature_cols[1].replace('_', ' ').title())\n        plt.title('Pairplot: Sepal Length vs Sepal Width')\n        plt.legend()\n        plt.grid(True, alpha=0.3)\n        \n        # 2. Correlation Heatmap\n        plt.subplot(3, 3, 2)\n        correlation_matrix = features_df.corr()\n        sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', center=0,\n                   square=True, fmt='.2f', cbar_kws={'shrink': 0.8})\n        plt.title('Feature Correlation Heatmap')\n        \n        # 3. Box plots for outlier detection\n        for i, col in enumerate(features_df.columns):\n            plt.subplot(3, 3, 3 + i)\n            \n            # Create box plot by species\n            species_data = []\n            species_labels = []\n            \n            for species in target_series.unique():\n                mask = target_series == species\n                species_data.append(features_df.loc[mask, col])\n                species_labels.append(species)\n            \n            plt.boxplot(species_data, labels=species_labels)\n            plt.title(f'Box Plot: {col.replace(\"_\", \" \").title()}')\n            plt.ylabel('Value')\n            plt.xticks(rotation=45)\n            plt.grid(True, alpha=0.3)\n        \n        # 7. Distribution plots\n        plt.subplot(3, 3, 7)\n        for species in target_series.unique():\n            mask = target_series == species\n            plt.hist(features_df.loc[mask, features_df.columns[0]], \n                    alpha=0.6, label=species, bins=15)\n        plt.xlabel(features_df.columns[0].replace('_', ' ').title())\n        plt.ylabel('Frequency')\n        plt.title('Distribution by Species')\n        plt.legend()\n        plt.grid(True, alpha=0.3)\n        \n        # 8. Feature importance (variance)\n        plt.subplot(3, 3, 8)\n        feature_variance = features_df.var().sort_values(ascending=True)\n        plt.barh(range(len(feature_variance)), feature_variance.values)\n        plt.yticks(range(len(feature_variance)), \n                  [name.replace('_', ' ').title() for name in feature_variance.index])\n        plt.xlabel('Variance')\n        plt.title('Feature Variance Analysis')\n        plt.grid(True, alpha=0.3)\n        \n        # 9. Species distribution\n        plt.subplot(3, 3, 9)\n        species_counts = target_series.value_counts()\n        colors = sns.color_palette(\"husl\", len(species_counts))\n        plt.pie(species_counts.values, labels=species_counts.index, autopct='%1.1f%%',\n               colors=colors, startangle=90)\n        plt.title('Species Distribution')\n        \n        plt.tight_layout()\n        plt.savefig('c:/DSA 2040_Practical_Exam_IRANZI513/Visualizations/iris_exploration.png', \n                   dpi=300, bbox_inches='tight', facecolor='white')\n        \n        print(\"Visualizations saved to: Visualizations/iris_exploration.png\")\n        \n        # Additional pairplot using seaborn\n        plt.figure(figsize=(12, 10))\n        sns.pairplot(combined_df, hue='species', diag_kind='hist', \n                    plot_kws={'alpha': 0.7}, diag_kws={'alpha': 0.7})\n        plt.suptitle('Comprehensive Pairplot of Iris Features', y=1.02)\n        plt.savefig('c:/DSA 2040_Practical_Exam_IRANZI513/Visualizations/iris_pairplot.png', \n                   dpi=300, bbox_inches='tight', facecolor='white')\n        \n        print(\"Pairplot saved to: Visualizations/iris_pairplot.png\")\n        \n        return fig\n    \n    def identify_outliers(self, features_df, target_series):\n        \"\"\"\n        Identify potential outliers using IQR method\n        \n        Args:\n            features_df (pd.DataFrame): Features\n            target_series (pd.Series): Target labels\n            \n        Returns:\n            dict: Outlier information by feature\n        \"\"\"\n        print(\"\\n\" + \"=\"*60)\n        print(\"OUTLIER DETECTION (IQR METHOD)\")\n        print(\"=\"*60)\n        \n        outlier_info = {}\n        \n        for col in features_df.columns:\n            Q1 = features_df[col].quantile(0.25)\n            Q3 = features_df[col].quantile(0.75)\n            IQR = Q3 - Q1\n            \n            lower_bound = Q1 - 1.5 * IQR\n            upper_bound = Q3 + 1.5 * IQR\n            \n            outliers = features_df[(features_df[col] < lower_bound) | \n                                 (features_df[col] > upper_bound)]\n            \n            outlier_info[col] = {\n                'count': len(outliers),\n                'percentage': len(outliers) / len(features_df) * 100,\n                'lower_bound': lower_bound,\n                'upper_bound': upper_bound,\n                'outlier_indices': outliers.index.tolist(),\n                'outlier_values': outliers[col].tolist()\n            }\n            \n            print(f\"\\n{col.replace('_', ' ').title()}:\")\n            print(f\"  Range: [{lower_bound:.3f}, {upper_bound:.3f}]\")\n            print(f\"  Outliers: {len(outliers)} ({len(outliers)/len(features_df)*100:.1f}%)\")\n            \n            if len(outliers) > 0:\n                print(f\"  Outlier values: {[f'{v:.3f}' for v in outliers[col].head(5).tolist()]}\")\n                if len(outliers) > 5:\n                    print(f\"  ... and {len(outliers) - 5} more\")\n        \n        return outlier_info\n    \n    def split_data(self, features_df, target_series, test_size=0.2, random_state=42):\n        \"\"\"\n        Split data into training and testing sets\n        \n        Args:\n            features_df (pd.DataFrame): Features\n            target_series (pd.Series): Target labels\n            test_size (float): Proportion of test data\n            random_state (int): Random seed\n            \n        Returns:\n            tuple: (X_train, X_test, y_train, y_test)\n        \"\"\"\n        print(\"\\n\" + \"=\"*60)\n        print(\"DATA SPLITTING (TRAIN/TEST)\")\n        print(\"=\"*60)\n        \n        X_train, X_test, y_train, y_test = train_test_split(\n            features_df, target_series, \n            test_size=test_size, \n            random_state=random_state,\n            stratify=target_series  # Ensure balanced split\n        )\n        \n        print(f\"Original dataset: {len(features_df)} samples\")\n        print(f\"Training set: {len(X_train)} samples ({len(X_train)/len(features_df)*100:.1f}%)\")\n        print(f\"Test set: {len(X_test)} samples ({len(X_test)/len(features_df)*100:.1f}%)\")\n        \n        print(\"\\nTraining set class distribution:\")\n        print(y_train.value_counts().sort_index())\n        \n        print(\"\\nTest set class distribution:\")\n        print(y_test.value_counts().sort_index())\n        \n        return X_train, X_test, y_train, y_test\n    \n    def run_complete_preprocessing(self):\n        \"\"\"\n        Run complete preprocessing pipeline\n        \n        Returns:\n            dict: All preprocessing results\n        \"\"\"\n        print(\"=\"*80)\n        print(\"IRIS DATASET - COMPREHENSIVE PREPROCESSING AND EXPLORATION\")\n        print(\"=\"*80)\n        \n        # Load dataset\n        features_df, target_series, feature_names, target_names = self.load_dataset()\n        \n        # Check missing values\n        missing_info = self.check_missing_values(features_df)\n        \n        # Compute summary statistics\n        self.compute_summary_statistics(features_df, target_series)\n        \n        # Create visualizations\n        self.create_visualizations(features_df, target_series)\n        \n        # Identify outliers\n        outlier_info = self.identify_outliers(features_df, target_series)\n        \n        # Normalize features\n        normalized_features = self.normalize_features(features_df)\n        \n        # Encode target labels\n        encoded_targets, label_mapping = self.encode_target_labels(target_series)\n        \n        # Split data\n        X_train, X_test, y_train, y_test = self.split_data(normalized_features, encoded_targets)\n        \n        print(\"\\n\" + \"=\"*80)\n        print(\"PREPROCESSING COMPLETED SUCCESSFULLY\")\n        print(\"Generated Files:\")\n        print(\"- Data/iris_data.csv (or synthetic_iris_data.csv)\")\n        print(\"- Visualizations/iris_exploration.png\")\n        print(\"- Visualizations/iris_pairplot.png\")\n        print(\"=\"*80)\n        \n        return {\n            'original_features': features_df,\n            'normalized_features': normalized_features,\n            'original_targets': target_series,\n            'encoded_targets': encoded_targets,\n            'label_mapping': label_mapping,\n            'train_test_split': (X_train, X_test, y_train, y_test),\n            'missing_info': missing_info,\n            'outlier_info': outlier_info,\n            'feature_names': feature_names,\n            'target_names': target_names\n        }\n\ndef split_data_function(features_df, target_series, test_size=0.2, random_state=42):\n    \"\"\"\n    Standalone function to split data into train/test sets\n    \n    Args:\n        features_df (pd.DataFrame): Features\n        target_series (pd.Series): Target labels\n        test_size (float): Proportion of test data\n        random_state (int): Random seed\n        \n    Returns:\n        tuple: (X_train, X_test, y_train, y_test)\n    \"\"\"\n    return train_test_split(\n        features_df, target_series,\n        test_size=test_size,\n        random_state=random_state,\n        stratify=target_series\n    )\n\ndef main():\n    \"\"\"\n    Main function to run preprocessing\n    \"\"\"\n    # Option 1: Use real Iris dataset\n    preprocessor_real = IrisDataPreprocessing(use_synthetic_data=False)\n    results_real = preprocessor_real.run_complete_preprocessing()\n    \n    print(\"\\n\" + \"#\"*80)\n    print(\"ALTERNATIVE: SYNTHETIC DATA GENERATION\")\n    print(\"#\"*80)\n    \n    # Option 2: Use synthetic data\n    preprocessor_synthetic = IrisDataPreprocessing(use_synthetic_data=True)\n    results_synthetic = preprocessor_synthetic.run_complete_preprocessing()\n\nif __name__ == \"__main__\":\n    main()
