@@ -160,7 +160,7 @@ DSA 2040_Practical_Exam_IRANZI513/
 
 ## Section 2: Data Mining
 
-### Task 1: Data Preprocessing (15 marks)
+### Task 1: Data Preprocessing
 **Objective**: Comprehensive data cleaning and preparation
 
 **Implementation**:
@@ -185,7 +185,7 @@ DSA 2040_Practical_Exam_IRANZI513/
 - Clear class separation in petal measurements
 - Balanced dataset with 50 samples per species
 
-### Task 2: Clustering Analysis (17.5 marks)
+### Task 2: Clustering Analysis
 **Objective**: K-Means clustering with optimization and evaluation
 
 **Implementation**:
@@ -210,7 +210,7 @@ DSA 2040_Practical_Exam_IRANZI513/
 - Cluster 0: 100 samples (66.7%) - Versicolor + Virginica
 - Cluster 1: 50 samples (33.3%) - Setosa (perfect separation)
 
-### Task 3: Classification and Association Rule Mining (17.5 marks)
+### Task 3: Classification and Association Rule Mining
 **Objective**: Multi-algorithm classification and pattern discovery
 
 **Implementation**:
